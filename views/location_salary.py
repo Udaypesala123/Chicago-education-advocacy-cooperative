@@ -45,7 +45,7 @@ st.caption(f"Wage and employment data use BLS SOC **{soc} {occ['soc_title']}**{p
 m1, m2, m3, m4 = st.columns(4)
 m1.metric("Median annual wage", fmt_money(here["wage_median"]),
           delta=f"{(here['wage_median'] / nat['wage_median'] - 1) * 100:+.0f}% vs. U.S." if loc != "us" else None)
-m2.metric("Typical range (10th–90th)", f"${here['wage_p10'] / 1000:,.0f}k–${here['wage_p90'] / 1000:,.0f}k")
+m2.metric("Typical range (10th–90th)", f"\\${here['wage_p10'] / 1000:,.0f}k–\\${here['wage_p90'] / 1000:,.0f}k")
 m3.metric("Estimated employment", f"{here['employment']:,.0f}",
           help="Location quotient > 1 means the job is more concentrated here than nationally.",
           delta=f"LQ {here['location_quotient']:.2f}", delta_color="off")
