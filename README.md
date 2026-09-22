@@ -51,7 +51,7 @@ Requirements: Python 3.10+ (3.11 or 3.12 recommended).
 ```bash
 git clone <your-repo-url> chieac-career-insights
 cd chieac-career-insights
-python -m venv .venv
+python3 -m venv .venv             # Windows: python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 streamlit run app.py
