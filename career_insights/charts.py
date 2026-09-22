@@ -71,8 +71,8 @@ def coverage_radar(cov: pd.DataFrame, title: str) -> go.Figure:
     fig.add_trace(go.Scatterpolar(r=vals + vals[:1], theta=cats + cats[:1], name="Your coverage",
                                   fill="toself", line=dict(color=TEAL), fillcolor="rgba(42,157,143,0.25)",
                                   hovertemplate="%{theta}: %{r:.0f}%<extra></extra>"))
-    fig.update_layout(title=title, height=470, margin=dict(l=70, r=70, t=110, b=50),
-                      legend=dict(orientation="h", yanchor="bottom", y=1.12, xanchor="left", x=0),
+    fig.update_layout(title=dict(text=f"{title}<br><sup>Shaded = your coverage · dotted = full role profile</sup>"),
+                      height=470, margin=dict(l=70, r=70, t=90, b=40), showlegend=False,
                       polar=dict(radialaxis=dict(range=[0, 100], ticksuffix="%", gridcolor="#E3E8EF", angle=45,
                                                  tickangle=45, tickfont=dict(size=10, color="#6B7280")),
                                  angularaxis=dict(gridcolor="#E3E8EF")))
