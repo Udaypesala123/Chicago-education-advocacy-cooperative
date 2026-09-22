@@ -15,7 +15,7 @@ from fpdf import FPDF
 from fpdf.enums import XPos, YPos
 from fpdf.fonts import FontFace
 
-from . import DISCLAIMER
+from . import AUTHOR, DISCLAIMER
 
 
 @dataclass
@@ -75,7 +75,7 @@ class _PDF(FPDF):
         self.set_y(-12)
         self.set_font("Helvetica", "", 8)
         self.set_text_color(120, 120, 120)
-        self.cell(0, 6, f"Educational use only. Page {self.page_no()}", align="C")
+        self.cell(0, 6, f"ChiEAC Career Insights Dashboard by {AUTHOR} - educational use only. Page {self.page_no()}", align="C")
 
 
 def _h(pdf: FPDF, text: str) -> None:

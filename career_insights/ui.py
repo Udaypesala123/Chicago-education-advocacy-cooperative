@@ -74,6 +74,10 @@ CSS = """
           padding: 2rem 2.2rem; border-radius: 14px; margin-bottom: 1.2rem;}
 .ci-hero h1 {color: #fff; margin: 0 0 .4rem 0; font-size: 2.1rem; line-height: 1.2;}
 .ci-hero p {color: #E8EEF6; font-size: 1.05rem; margin: 0; max-width: 780px;}
+.ci-byline {display: inline-block; margin: 0 0 .9rem 0; padding: .2rem .75rem; border-radius: 999px;
+            background: rgba(255,255,255,.14); border: 1px solid rgba(255,255,255,.28); color: #fff;
+            font-size: .9rem; font-weight: 600; letter-spacing: .01em;}
+.ci-byline a {color: #fff; text-decoration: underline; text-underline-offset: 2px;}
 .ci-card {border: 1px solid #E3E8EF; border-radius: 12px; padding: 1rem 1.1rem; background: #fff; height: 100%;}
 .ci-card h4 {margin: 0 0 .35rem 0; color: #1B3A5C; font-size: 1.02rem;}
 .ci-card p {margin: 0; color: #4B5563; font-size: .92rem;}
@@ -98,8 +102,9 @@ def page_setup() -> None:
     st.markdown(CSS, unsafe_allow_html=True)
 
 
-def hero(title: str, subtitle: str) -> None:
-    st.markdown(f'<div class="ci-hero"><h1>{title}</h1><p>{subtitle}</p></div>', unsafe_allow_html=True)
+def hero(title: str, subtitle: str, byline: str | None = None) -> None:
+    by = f'<div class="ci-byline">{byline}</div>' if byline else ""
+    st.markdown(f'<div class="ci-hero"><h1>{title}</h1>{by}<p>{subtitle}</p></div>', unsafe_allow_html=True)
 
 
 def card(title: str, body: str) -> None:

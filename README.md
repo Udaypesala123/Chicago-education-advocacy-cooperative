@@ -1,5 +1,9 @@
 # ChiEAC Career Insights Dashboard
 
+Designed and built by **[Uday Pesala](https://github.com/Udaypesala123)** for the Chicago Education Advocacy Cooperative (ChiEAC).
+
+**Live app:** <https://chicago-education-advocacy-cooperative-h69gix3dced5ynuw5qdpge.streamlit.app>
+
 A Streamlit web application that helps **international students and early-career professionals** find career paths that fit their skills, see which skills to develop next, and explore salary and demand trends across U.S. metro areas using public labor-market data.
 
 > **Disclaimer.** This dashboard provides educational career insights based on publicly available and/or demonstration data. It is not immigration, legal, employment, or salary advice. Results should not be interpreted as guarantees of employment.

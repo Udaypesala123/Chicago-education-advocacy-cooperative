@@ -2,7 +2,7 @@
 
 import streamlit as st
 
-from career_insights import DISCLAIMER
+from career_insights import AUTHOR, AUTHOR_URL, DISCLAIMER
 from career_insights.impact import MIN_GROUP_SIZE
 from career_insights.scoring import (HIGH_THRESHOLD, MEDIUM_THRESHOLD, W_BREADTH, W_COVERAGE, W_IMPORTANCE,
                                      W_SIMILARITY)
@@ -72,6 +72,11 @@ st.markdown(f"""
 
 ### Technology
 Python · Streamlit · Pandas · Plotly · scikit-learn · fpdf2. The app is designed for Streamlit Community Cloud.
+""")
+
+st.markdown(f"""
+### Credits
+Designed and built by **[{AUTHOR}]({AUTHOR_URL})** for the Chicago Education Advocacy Cooperative (ChiEAC).
 """)
 
 st.markdown("### Disclaimer")
