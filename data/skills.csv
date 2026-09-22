@@ -1,0 +1,47 @@
+skill,skill_category,description
+Python,Programming,"General-purpose language used for analytics, ML, automation and back-end services."
+R,Programming,Statistical programming language used in research and analytics.
+Java,Programming,Object-oriented language common in enterprise back-end systems.
+JavaScript,Programming,"Language of the web, used in front-end and Node.js back-end development."
+C++,Programming,Systems language used where performance matters.
+Git,Programming,Version control for collaborating on code.
+SQL,Data & Databases,Querying and managing relational databases.
+Data Modeling,Data & Databases,"Designing tables, schemas and relationships for analytics or applications."
+ETL / Data Pipelines,Data & Databases,"Extracting, transforming and loading data between systems."
+Spark,Data & Databases,Distributed data processing (Apache Spark / PySpark).
+Kafka,Data & Databases,Event streaming platform for real-time data (Apache Kafka).
+Airflow,Data & Databases,Workflow orchestration for scheduled data pipelines.
+NoSQL Databases,Data & Databases,"Document, key-value and wide-column stores such as MongoDB or DynamoDB."
+Machine Learning,AI & Machine Learning,"Building predictive models such as regression, classification and clustering."
+Deep Learning,AI & Machine Learning,"Neural networks for vision, language and other complex data."
+NLP,AI & Machine Learning,Natural language processing: working with text data and language models.
+MLOps,AI & Machine Learning,"Deploying, monitoring and maintaining ML models in production."
+Statistics,Analytics & BI,"Descriptive and inferential statistics, hypothesis testing, regression."
+Excel,Analytics & BI,"Spreadsheets, pivot tables, formulas and basic modeling."
+Tableau,Analytics & BI,Business intelligence and dashboarding tool.
+Power BI,Analytics & BI,Microsoft business intelligence and dashboarding tool.
+Data Visualization,Analytics & BI,Communicating insights with clear charts and dashboards.
+A/B Testing,Analytics & BI,Designing and analyzing controlled experiments.
+AWS,Cloud & DevOps,Amazon Web Services cloud platform.
+Azure,Cloud & DevOps,Microsoft Azure cloud platform.
+GCP,Cloud & DevOps,Google Cloud Platform.
+Docker,Cloud & DevOps,Packaging applications into containers.
+Kubernetes,Cloud & DevOps,Orchestrating containers at scale.
+CI/CD,Cloud & DevOps,Continuous integration and delivery pipelines.
+Terraform,Cloud & DevOps,Infrastructure as code.
+Linux,Cloud & DevOps,Working with Linux servers and the command line.
+Cybersecurity,Security & Networking,Protecting systems and data; threat detection and response.
+Networking,Security & Networking,"TCP/IP, DNS, routing, firewalls and network design."
+Risk & Compliance,Security & Networking,"Controls, audits and regulatory frameworks (e.g., SOC 2, HIPAA, SOX)."
+HTML/CSS,Web & Software Engineering,Structuring and styling web pages.
+React,Web & Software Engineering,Popular JavaScript library for building user interfaces.
+REST APIs,Web & Software Engineering,Designing and consuming web APIs.
+Testing / QA Automation,Web & Software Engineering,"Unit, integration and automated UI testing."
+System Design,Web & Software Engineering,"Designing scalable, reliable software architectures."
+Communication,Business & Professional,Explaining technical work clearly in writing and presentations.
+Problem Solving,Business & Professional,Structuring ambiguous problems and reasoning to solutions.
+Stakeholder Management,Business & Professional,Working with business partners to gather needs and align priorities.
+Agile / Scrum,Business & Professional,Iterative team delivery practices.
+Project Management,Business & Professional,"Planning scope, schedule, budget and risk."
+Financial Modeling,Business & Professional,"Building models for valuation, forecasting and budgeting."
+Business Acumen,Business & Professional,Understanding how organizations create value and measure success.

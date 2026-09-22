@@ -1,0 +1,11 @@
+location_id,location_name,short_name,area_type,state,lat,lon
+us,United States (national),United States,National,US,39.83,-98.58
+chicago,"Chicago-Naperville-Elgin, IL-IN-WI",Chicago,Metropolitan Statistical Area,IL,41.88,-87.63
+new_york,"New York-Newark-Jersey City, NY-NJ-PA",New York,Metropolitan Statistical Area,NY,40.71,-74.01
+san_francisco,"San Francisco-Oakland-Fremont, CA",San Francisco,Metropolitan Statistical Area,CA,37.77,-122.42
+seattle,"Seattle-Tacoma-Bellevue, WA",Seattle,Metropolitan Statistical Area,WA,47.61,-122.33
+austin,"Austin-Round Rock-San Marcos, TX",Austin,Metropolitan Statistical Area,TX,30.27,-97.74
+boston,"Boston-Cambridge-Newton, MA-NH",Boston,Metropolitan Statistical Area,MA,42.36,-71.06
+dallas,"Dallas-Fort Worth-Arlington, TX",Dallas,Metropolitan Statistical Area,TX,32.78,-96.8
+atlanta,"Atlanta-Sandy Springs-Roswell, GA",Atlanta,Metropolitan Statistical Area,GA,33.75,-84.39
+washington_dc,"Washington-Arlington-Alexandria, DC-VA-MD-WV","Washington, DC",Metropolitan Statistical Area,DC,38.91,-77.04

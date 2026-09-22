@@ -1,0 +1,481 @@
+record_id,cohort_quarter,location_id,education_level,field_of_study,target_occupation_id,skills,is_synthetic
+DEMO-0001,2026-Q1,chicago,Master's (completed),Engineering,data_analyst,A/B Testing;Business Acumen;Communication;Excel;Networking;Power BI;Problem Solving;Python;Risk & Compliance;SQL;Stakeholder Management;Tableau,yes
+DEMO-0002,2025-Q2,chicago,Master's (in progress),Engineering,software_engineer,AWS;C++;CI/CD;Deep Learning;Git;JavaScript;Linux;Problem Solving;Python;REST APIs;React;SQL;System Design;Testing / QA Automation,yes
+DEMO-0003,2026-Q2,chicago,Doctorate,Information Systems,web_developer,Communication;Data Modeling;Git;JavaScript;NoSQL Databases;Problem Solving;React,yes
+DEMO-0004,2025-Q4,chicago,Doctorate,Computer Science,data_engineer,Airflow;CI/CD;Communication;Data Modeling;Docker;ETL / Data Pipelines;Git;Kafka;MLOps;NLP;Risk & Compliance;Spark;Terraform,yes
+DEMO-0005,2025-Q4,chicago,Bachelor's (in progress),Computer Science,cloud_engineer,CI/CD;Docker;GCP;Git;JavaScript;Kubernetes;Linux;Networking;Statistics;Terraform,yes
+DEMO-0006,2026-Q1,atlanta,Master's (completed),Business / Finance,cloud_engineer,AWS;Azure;CI/CD;GCP;Kubernetes;Linux;Problem Solving;Python,yes
+DEMO-0007,2025-Q3,chicago,Master's (in progress),Data Science / Analytics,data_analyst,A/B Testing;Business Acumen;Communication;Data Modeling;Data Visualization;HTML/CSS;Problem Solving;Python;Statistics;Testing / QA Automation,yes
+DEMO-0008,2026-Q2,chicago,Master's (in progress),Data Science / Analytics,software_engineer,AWS;C++;CI/CD;Deep Learning;Docker;Excel;Git;Java;JavaScript;Linux;Machine Learning;Power BI;Problem Solving;Python;SQL;System Design;Testing / QA Automation,yes
+DEMO-0009,2025-Q3,boston,Master's (completed),Computer Science,database_admin,AWS;Azure;Communication;Networking;Problem Solving;Python;SQL,yes
+DEMO-0010,2026-Q1,washington_dc,Master's (in progress),Information Systems,ml_engineer,AWS;CI/CD;Cybersecurity;Deep Learning;Docker;Git;MLOps;Machine Learning;NLP;Python;SQL;Spark,yes
+DEMO-0011,2026-Q1,seattle,Master's (in progress),Data Science / Analytics,data_analyst,A/B Testing;Communication;Excel;Machine Learning;Power BI;Problem Solving;Python;R;SQL;Tableau,yes
+DEMO-0012,2025-Q3,san_francisco,Master's (in progress),Other,data_engineer,AWS;CI/CD;Communication;Data Modeling;ETL / Data Pipelines;Java;Networking;NoSQL Databases;Python;R;SQL;Spark;Terraform,yes
+DEMO-0013,2026-Q1,new_york,Bachelor's (completed),Computer Science,data_analyst,Airflow;Business Acumen;Data Modeling;Data Visualization;Excel;Financial Modeling;Power BI;Problem Solving;Python;Stakeholder Management;Statistics;Tableau,yes
+DEMO-0014,2026-Q1,seattle,Bachelor's (completed),Information Systems,data_engineer,Communication;Data Modeling;Docker;ETL / Data Pipelines;Excel;Git;Kafka;Linux;SQL;Spark;Tableau,yes
+DEMO-0015,2026-Q2,boston,Bachelor's (in progress),Business / Finance,market_research_analyst,Business Acumen;Data Modeling;Data Visualization;Excel;GCP;Problem Solving;R;SQL;Statistics,yes
+DEMO-0016,2026-Q2,chicago,Doctorate,Computer Science,data_scientist,A/B Testing;AWS;CI/CD;Communication;Data Visualization;Financial Modeling;Machine Learning;NLP;Problem Solving;Spark;Statistics,yes
+DEMO-0017,2025-Q2,austin,Master's (in progress),Data Science / Analytics,software_engineer,Agile / Scrum;C++;Communication;Java;JavaScript;Problem Solving;Python;REST APIs;Spark;System Design,yes
+DEMO-0018,2025-Q3,boston,Master's (completed),Engineering,software_engineer,AWS;C++;CI/CD;Communication;Docker;Git;Java;Power BI;Problem Solving;Project Management;Python;Tableau,yes
+DEMO-0019,2026-Q1,chicago,Master's (in progress),Computer Science,data_scientist,A/B Testing;Data Visualization;Machine Learning;Problem Solving;Python;R;Statistics;Terraform;Testing / QA Automation,yes
+DEMO-0020,2026-Q1,chicago,Master's (in progress),Data Science / Analytics,security_analyst,Problem Solving;Python;REST APIs;SQL;Stakeholder Management;System Design,yes
+DEMO-0021,2026-Q2,chicago,Bachelor's (completed),Computer Science,security_analyst,Azure;Communication;Cybersecurity;GCP;Networking;Problem Solving;Risk & Compliance,yes
+DEMO-0022,2025-Q3,dallas,Master's (in progress),Business / Finance,ml_engineer,AWS;Deep Learning;Docker;GCP;Git;HTML/CSS;Kubernetes;Linux;Machine Learning;Python;SQL;Spark,yes
+DEMO-0023,2026-Q2,chicago,Bachelor's (completed),Data Science / Analytics,software_engineer,Agile / Scrum;Airflow;Financial Modeling;Git;Java;Linux;Problem Solving,yes
+DEMO-0024,2026-Q1,chicago,Master's (completed),Data Science / Analytics,software_engineer,Agile / Scrum;Communication;Java;JavaScript;Linux;Power BI;Python;System Design;Testing / QA Automation,yes
+DEMO-0025,2025-Q3,boston,Master's (completed),Information Systems,data_scientist,A/B Testing;C++;Communication;Data Visualization;NLP;Python;Spark;Terraform,yes
+DEMO-0026,2025-Q2,san_francisco,Doctorate,Computer Science,project_manager,AWS;Agile / Scrum;Business Acumen;Communication;Cybersecurity;Data Visualization;NLP;Problem Solving;Stakeholder Management;Testing / QA Automation,yes
+DEMO-0027,2026-Q2,atlanta,Master's (in progress),Data Science / Analytics,ml_engineer,Deep Learning;GCP;Git;Linux;MLOps;Machine Learning;Python;REST APIs;SQL;Spark;Statistics;System Design;Terraform,yes
+DEMO-0028,2025-Q2,chicago,Bachelor's (completed),Computer Science,data_scientist,A/B Testing;AWS;Communication;Deep Learning;Git;Kafka;Machine Learning;NoSQL Databases;Problem Solving;Python;R;SQL;Statistics;Terraform,yes
+DEMO-0029,2025-Q2,washington_dc,Master's (in progress),Engineering,data_analyst,A/B Testing;Agile / Scrum;Business Acumen;Communication;Data Modeling;Data Visualization;GCP;Problem Solving;Python;R;SQL;Stakeholder Management;Statistics,yes
+DEMO-0030,2025-Q2,chicago,Master's (in progress),Data Science / Analytics,database_admin,AWS;Cybersecurity;Linux;Networking;NoSQL Databases;Problem Solving;SQL,yes
+DEMO-0031,2026-Q2,chicago,Bachelor's (in progress),Computer Science,data_analyst,Communication;Docker;Excel;Power BI;Problem Solving;Stakeholder Management;Statistics;Tableau,yes
+DEMO-0032,2025-Q4,chicago,Bachelor's (in progress),Computer Science,data_analyst,Business Acumen;Communication;Data Modeling;Data Visualization;Excel;Problem Solving;Python;R;SQL;Statistics;Tableau,yes
+DEMO-0033,2025-Q2,washington_dc,Master's (completed),Information Systems,data_analyst,A/B Testing;AWS;Business Acumen;ETL / Data Pipelines;Excel;Power BI;Problem Solving;Python;Statistics;Tableau,yes
+DEMO-0034,2026-Q2,chicago,Master's (in progress),Business / Finance,statistician,A/B Testing;Business Acumen;Kafka;Machine Learning;Power BI;Python;R;SQL;Statistics,yes
+DEMO-0035,2025-Q3,chicago,Bachelor's (completed),Business / Finance,data_engineer,Airflow;Azure;CI/CD;Communication;Data Modeling;Docker;GCP;Kafka;REST APIs;SQL;Spark;Terraform,yes
+DEMO-0036,2025-Q4,new_york,Bachelor's (in progress),Computer Science,data_analyst,Business Acumen;Communication;Data Modeling;Data Visualization;Excel;Machine Learning;Power BI;SQL;Stakeholder Management;Statistics;Tableau,yes
+DEMO-0037,2025-Q4,dallas,Master's (in progress),Data Science / Analytics,cloud_engineer,AWS;CI/CD;JavaScript;Kafka;Kubernetes;Networking;Power BI;R;Terraform,yes
+DEMO-0038,2025-Q3,atlanta,Bachelor's (in progress),Computer Science,data_analyst,Business Acumen;C++;Data Modeling;Data Visualization;Excel;Networking;Python;SQL;Statistics,yes
+DEMO-0039,2026-Q2,chicago,Master's (in progress),Computer Science,financial_analyst,Agile / Scrum;Azure;Business Acumen;Communication;Excel;Python;R;SQL;Spark;Statistics,yes
+DEMO-0040,2025-Q2,chicago,Master's (completed),Information Systems,data_analyst,A/B Testing;Business Acumen;Communication;Data Modeling;Data Visualization;Power BI;Problem Solving;Python;Stakeholder Management;Statistics;Tableau,yes
+DEMO-0041,2025-Q2,chicago,Master's (completed),Computer Science,security_analyst,Azure;Cybersecurity;Linux;NLP;Networking;Problem Solving;Risk & Compliance;Stakeholder Management;Terraform,yes
+DEMO-0042,2025-Q3,chicago,Bachelor's (completed),Computer Science,software_engineer,Communication;Docker;Git;Java;JavaScript;Kafka;Problem Solving;SQL;Testing / QA Automation,yes
+DEMO-0043,2026-Q1,austin,Bachelor's (completed),Business / Finance,devops_engineer,AWS;Azure;CI/CD;Communication;Cybersecurity;Docker;GCP;Git;Kubernetes;Linux;Networking;Problem Solving;Project Management;Python,yes
+DEMO-0044,2025-Q4,new_york,Master's (in progress),Engineering,qa_engineer,A/B Testing;CI/CD;Docker;Financial Modeling;Git;Java;Python;R,yes
+DEMO-0045,2025-Q4,washington_dc,Bachelor's (in progress),Computer Science,web_developer,AWS;Agile / Scrum;CI/CD;Communication;HTML/CSS;JavaScript;Problem Solving;REST APIs;React;Testing / QA Automation,yes
+DEMO-0046,2025-Q4,dallas,Doctorate,Data Science / Analytics,software_engineer,Agile / Scrum;C++;Communication;Docker;Git;JavaScript;Kubernetes;Linux;Python;Tableau,yes
+DEMO-0047,2025-Q3,boston,Master's (completed),Information Systems,data_analyst,Business Acumen;Communication;Data Modeling;Data Visualization;ETL / Data Pipelines;JavaScript;Power BI;Problem Solving;SQL;Stakeholder Management,yes
+DEMO-0048,2025-Q3,dallas,Master's (in progress),Data Science / Analytics,project_manager,Agile / Scrum;Airflow;Communication;Excel;Machine Learning;Problem Solving;System Design,yes
+DEMO-0049,2026-Q1,seattle,Bachelor's (in progress),Computer Science,software_engineer,CI/CD;Communication;Docker;Git;Java;Linux;Problem Solving;Python;REST APIs;SQL;Testing / QA Automation,yes
+DEMO-0050,2026-Q1,new_york,Master's (in progress),Data Science / Analytics,ml_engineer,AWS;Deep Learning;Docker;Java;Linux;MLOps;NLP;Python;REST APIs;Statistics;System Design,yes
+DEMO-0051,2025-Q2,washington_dc,Master's (in progress),Data Science / Analytics,systems_analyst,Airflow;Business Acumen;Communication;NLP;Problem Solving;REST APIs;System Design,yes
+DEMO-0052,2025-Q4,san_francisco,Bachelor's (completed),Data Science / Analytics,data_analyst,AWS;Data Modeling;Data Visualization;Excel;GCP;Power BI;SQL;Statistics,yes
+DEMO-0053,2025-Q1,chicago,Master's (in progress),Computer Science,database_admin,AWS;Airflow;Azure;Communication;Data Modeling;Linux;NoSQL Databases;Risk & Compliance;SQL,yes
+DEMO-0054,2025-Q1,chicago,Bachelor's (in progress),Engineering,software_engineer,Agile / Scrum;CI/CD;Docker;Financial Modeling;Git;Java;JavaScript;Linux;Problem Solving;Python;REST APIs;System Design,yes
+DEMO-0055,2025-Q2,austin,Master's (completed),Computer Science,software_engineer,Agile / Scrum;Communication;Data Modeling;JavaScript;Linux;NoSQL Databases;Problem Solving;REST APIs;Spark;Testing / QA Automation,yes
+DEMO-0056,2026-Q2,chicago,Bachelor's (completed),Information Systems,data_scientist,A/B Testing;C++;Communication;Data Visualization;Deep Learning;Excel;Git;Machine Learning;Problem Solving;Python;R;SQL;Statistics,yes
+DEMO-0057,2026-Q1,new_york,Bachelor's (completed),Data Science / Analytics,data_engineer,AWS;Communication;ETL / Data Pipelines;Java;Kafka;Linux;SQL;Terraform,yes
+DEMO-0058,2025-Q1,chicago,Bachelor's (in progress),Computer Science,web_developer,Communication;Git;HTML/CSS;Power BI;Problem Solving;Project Management;SQL,yes
+DEMO-0059,2026-Q2,dallas,Master's (in progress),Computer Science,data_scientist,A/B Testing;Azure;C++;Communication;Data Visualization;Deep Learning;Git;JavaScript;Machine Learning;Problem Solving;Python;R;SQL;Spark;Statistics,yes
+DEMO-0060,2026-Q2,austin,Master's (in progress),Engineering,financial_analyst,Business Acumen;Communication;Excel;Financial Modeling;SQL;Stakeholder Management;System Design;Tableau;Terraform,yes
+DEMO-0061,2025-Q4,chicago,Bachelor's (completed),Engineering,data_engineer,AWS;Airflow;Azure;Data Modeling;Docker;ETL / Data Pipelines;Git;Java;Linux;Python;SQL;Spark;Terraform,yes
+DEMO-0062,2026-Q1,washington_dc,Master's (in progress),Computer Science,security_analyst,Azure;Communication;Cybersecurity;Deep Learning;Kubernetes;Networking;Problem Solving;React;Risk & Compliance;SQL;Tableau,yes
+DEMO-0063,2025-Q3,washington_dc,Master's (in progress),Data Science / Analytics,ml_engineer,Docker;Kafka;Linux;MLOps;NLP;Networking;SQL;System Design,yes
+DEMO-0064,2025-Q3,washington_dc,Master's (in progress),Data Science / Analytics,software_engineer,AWS;Communication;Cybersecurity;Git;Java;Problem Solving;Python;REST APIs;SQL;System Design;Testing / QA Automation,yes
+DEMO-0065,2026-Q1,washington_dc,Bachelor's (in progress),Data Science / Analytics,data_scientist,AWS;Business Acumen;Communication;Data Visualization;Git;Machine Learning;NLP;Problem Solving;Python;SQL;Statistics;System Design,yes
+DEMO-0066,2025-Q4,san_francisco,Bachelor's (completed),Computer Science,project_manager,AWS;Agile / Scrum;Communication;Excel;Problem Solving;Project Management;Risk & Compliance;Stakeholder Management,yes
+DEMO-0067,2025-Q4,washington_dc,Master's (in progress),Other,qa_engineer,Communication;Docker;Java;JavaScript;REST APIs;SQL;Testing / QA Automation,yes
+DEMO-0068,2025-Q4,san_francisco,Bachelor's (in progress),Information Systems,data_scientist,A/B Testing;Business Acumen;Communication;GCP;Git;Kubernetes;Machine Learning;Problem Solving;Python;Statistics,yes
+DEMO-0069,2026-Q2,washington_dc,Bachelor's (in progress),Information Systems,ml_engineer,AWS;CI/CD;Data Modeling;Deep Learning;Docker;Kubernetes;Linux;MLOps;Machine Learning;Project Management;Python;SQL;Statistics;Tableau,yes
+DEMO-0070,2026-Q1,san_francisco,Master's (in progress),Data Science / Analytics,data_analyst,AWS;Business Acumen;CI/CD;Communication;Data Visualization;R;SQL;Statistics;Tableau,yes
+DEMO-0071,2025-Q4,chicago,Master's (in progress),Business / Finance,data_scientist,A/B Testing;Communication;Git;Kafka;Python;R;SQL;Spark;Statistics;System Design;Testing / QA Automation,yes
+DEMO-0072,2026-Q2,chicago,Bachelor's (completed),Computer Science,data_engineer,Airflow;Azure;CI/CD;Data Modeling;Kafka;Machine Learning;NoSQL Databases;Python;React;Spark;Terraform,yes
+DEMO-0073,2025-Q4,seattle,Master's (in progress),Computer Science,software_engineer,Business Acumen;CI/CD;Deep Learning;Docker;Financial Modeling;Git;Java;Linux;Python;REST APIs;System Design,yes
+DEMO-0074,2025-Q3,atlanta,Master's (in progress),Information Systems,ml_engineer,CI/CD;MLOps;Machine Learning;Problem Solving;Python;System Design,yes
+DEMO-0075,2025-Q3,chicago,Master's (in progress),Computer Science,data_scientist,A/B Testing;C++;Communication;Data Visualization;Machine Learning;NLP;Problem Solving;Project Management;R;REST APIs;Spark;Statistics,yes
+DEMO-0076,2025-Q2,washington_dc,Master's (in progress),Mathematics / Statistics,data_analyst,Business Acumen;Communication;Data Modeling;Data Visualization;Excel;Power BI;SQL;Tableau,yes
+DEMO-0077,2025-Q2,chicago,Master's (in progress),Data Science / Analytics,data_scientist,A/B Testing;Data Visualization;Git;Kubernetes;Problem Solving;Python;REST APIs;Statistics,yes
+DEMO-0078,2025-Q4,san_francisco,Master's (completed),Data Science / Analytics,web_developer,AWS;Agile / Scrum;Communication;Git;HTML/CSS;JavaScript;REST APIs;React;Testing / QA Automation,yes
+DEMO-0079,2025-Q2,chicago,Master's (in progress),Data Science / Analytics,security_analyst,AWS;Cybersecurity;JavaScript;Kubernetes;Problem Solving;Risk & Compliance;Tableau,yes
+DEMO-0080,2026-Q2,dallas,Master's (in progress),Computer Science,database_admin,AWS;Agile / Scrum;Azure;Communication;Cybersecurity;Data Modeling;Excel;Linux;Risk & Compliance;SQL;Tableau,yes
+DEMO-0081,2025-Q4,chicago,Master's (in progress),Mathematics / Statistics,software_engineer,AWS;Agile / Scrum;Docker;Git;Java;JavaScript;Problem Solving;Statistics;Tableau;Terraform,yes
+DEMO-0082,2025-Q3,chicago,Master's (in progress),Data Science / Analytics,data_scientist,A/B Testing;Agile / Scrum;Communication;Cybersecurity;Git;Kafka;Problem Solving;Spark,yes
+DEMO-0083,2025-Q4,washington_dc,Doctorate,Computer Science,data_scientist,A/B Testing;C++;Communication;Machine Learning;NLP;Problem Solving;Python;R;Statistics;Tableau,yes
+DEMO-0084,2026-Q1,washington_dc,Bachelor's (in progress),Business / Finance,database_admin,Cybersecurity;Data Visualization;Machine Learning;Networking;NoSQL Databases;Problem Solving;Risk & Compliance;SQL,yes
+DEMO-0085,2026-Q1,chicago,Master's (in progress),Computer Science,data_analyst,Business Acumen;CI/CD;Communication;Data Visualization;Deep Learning;JavaScript;Python;R;Statistics;Tableau,yes
+DEMO-0086,2025-Q2,chicago,Master's (in progress),Computer Science,cloud_engineer,A/B Testing;Azure;CI/CD;Cybersecurity;Financial Modeling;GCP;Git;System Design;Terraform,yes
+DEMO-0087,2025-Q3,chicago,Master's (in progress),Data Science / Analytics,ml_engineer,AWS;Cybersecurity;Deep Learning;Git;Kubernetes;Linux;MLOps;Machine Learning;NoSQL Databases;Python;REST APIs;SQL,yes
+DEMO-0088,2025-Q4,new_york,Master's (completed),Data Science / Analytics,data_engineer,AWS;CI/CD;Communication;Data Modeling;Docker;Java;Kafka;Python;Risk & Compliance;SQL;Testing / QA Automation,yes
+DEMO-0089,2025-Q1,chicago,Master's (in progress),Engineering,data_analyst,A/B Testing;Business Acumen;Data Modeling;Data Visualization;Excel;Power BI;Problem Solving;Python;SQL;Statistics;Tableau,yes
+DEMO-0090,2026-Q1,dallas,Master's (in progress),Computer Science,market_research_analyst,Communication;Data Visualization;Excel;MLOps;Python;R;SQL,yes
+DEMO-0091,2025-Q1,chicago,Bachelor's (in progress),Computer Science,data_analyst,A/B Testing;Communication;Data Visualization;Excel;Power BI;Python;SQL;Tableau,yes
+DEMO-0092,2025-Q4,chicago,Master's (in progress),Information Systems,data_engineer,AWS;Airflow;Azure;CI/CD;Data Modeling;ETL / Data Pipelines;Git;HTML/CSS;Java;Machine Learning;SQL;Spark;Terraform,yes
+DEMO-0093,2026-Q1,dallas,Doctorate,Information Systems,data_analyst,A/B Testing;Airflow;Business Acumen;Communication;Data Modeling;Data Visualization;Excel;NoSQL Databases;Power BI;Problem Solving;R;SQL;Tableau,yes
+DEMO-0094,2025-Q2,austin,Bachelor's (completed),Mathematics / Statistics,data_scientist,Communication;Data Visualization;Docker;Git;Power BI;Problem Solving;Python;Statistics,yes
+DEMO-0095,2025-Q1,new_york,Master's (in progress),Computer Science,systems_analyst,Data Modeling;Financial Modeling;HTML/CSS;Kubernetes;Problem Solving;SQL;Stakeholder Management,yes
+DEMO-0096,2026-Q2,san_francisco,Master's (in progress),Engineering,software_engineer,AWS;CI/CD;Communication;Docker;Financial Modeling;Java;JavaScript;Linux;Problem Solving;Python;REST APIs;Statistics;System Design;Testing / QA Automation,yes
+DEMO-0097,2025-Q3,new_york,Bachelor's (completed),Information Systems,data_analyst,A/B Testing;Data Modeling;Docker;Excel;Problem Solving;Python;SQL;Stakeholder Management;Tableau,yes
+DEMO-0098,2026-Q1,chicago,Master's (completed),Data Science / Analytics,ml_engineer,AWS;Deep Learning;Docker;GCP;Git;Kafka;Linux;MLOps;Machine Learning;NLP;Python;REST APIs;SQL,yes
+DEMO-0099,2025-Q2,chicago,Master's (completed),Business / Finance,data_engineer,AWS;Airflow;CI/CD;Data Modeling;ETL / Data Pipelines;Git;Kafka;SQL,yes
+DEMO-0100,2025-Q4,san_francisco,Master's (in progress),Data Science / Analytics,data_analyst,Business Acumen;Communication;Data Modeling;Linux;Power BI;R;React;SQL;Stakeholder Management;Statistics,yes
+DEMO-0101,2026-Q1,washington_dc,Master's (in progress),Engineering,devops_engineer,AWS;CI/CD;Cybersecurity;Docker;ETL / Data Pipelines;Git;Kafka;Linux;Problem Solving;REST APIs;Terraform,yes
+DEMO-0102,2026-Q1,new_york,Master's (in progress),Data Science / Analytics,data_analyst,A/B Testing;Business Acumen;Communication;Data Modeling;Data Visualization;Problem Solving;R;SQL;Stakeholder Management;Statistics,yes
+DEMO-0103,2025-Q1,chicago,Bachelor's (in progress),Computer Science,data_analyst,A/B Testing;Business Acumen;Data Modeling;Excel;GCP;HTML/CSS;Problem Solving;SQL;Statistics;Tableau,yes
+DEMO-0104,2025-Q3,seattle,Master's (in progress),Data Science / Analytics,devops_engineer,AWS;Azure;CI/CD;Communication;Git;HTML/CSS;Java;Linux;Networking;Problem Solving;Terraform,yes
+DEMO-0105,2025-Q2,austin,Bachelor's (in progress),Business / Finance,software_engineer,AWS;Agile / Scrum;C++;CI/CD;Git;Networking;REST APIs;System Design,yes
+DEMO-0106,2026-Q1,boston,Master's (in progress),Data Science / Analytics,data_engineer,AWS;Airflow;C++;Communication;Data Modeling;ETL / Data Pipelines;Kafka;Linux;Python;SQL;Spark,yes
+DEMO-0107,2026-Q1,new_york,Bachelor's (completed),Mathematics / Statistics,data_analyst,AWS;Business Acumen;Data Modeling;Data Visualization;Excel;Kafka;Power BI;Problem Solving;Python;Tableau,yes
+DEMO-0108,2025-Q1,seattle,Master's (in progress),Computer Science,web_developer,Communication;Git;JavaScript;NoSQL Databases;Problem Solving;React;SQL,yes
+DEMO-0109,2026-Q2,boston,Master's (completed),Computer Science,data_scientist,A/B Testing;AWS;Communication;Data Visualization;Deep Learning;Docker;GCP;Git;Machine Learning;Python;R;Statistics,yes
+DEMO-0110,2025-Q1,boston,Master's (completed),Information Systems,database_admin,Data Modeling;Linux;Problem Solving;SQL;Tableau;Testing / QA Automation,yes
+DEMO-0111,2026-Q1,austin,Master's (in progress),Business / Finance,data_scientist,A/B Testing;AWS;Communication;Data Visualization;Java;Machine Learning;NLP;Problem Solving;Python;R;SQL;Statistics,yes
+DEMO-0112,2026-Q2,chicago,Master's (completed),Business / Finance,software_engineer,AWS;Agile / Scrum;C++;CI/CD;Docker;Git;Java;JavaScript;Linux;Problem Solving;Project Management;REST APIs;React;System Design;Testing / QA Automation,yes
+DEMO-0113,2025-Q3,san_francisco,Master's (completed),Information Systems,web_developer,CI/CD;Communication;Docker;Excel;Git;HTML/CSS;NoSQL Databases;React;Risk & Compliance;Testing / QA Automation,yes
+DEMO-0114,2025-Q4,austin,Bachelor's (in progress),Business / Finance,ml_engineer,AWS;Docker;GCP;Git;MLOps;REST APIs;SQL,yes
+DEMO-0115,2025-Q2,san_francisco,Master's (in progress),Engineering,data_engineer,AWS;Airflow;Business Acumen;Data Modeling;ETL / Data Pipelines;Java;Kafka;Linux;NoSQL Databases;Spark,yes
+DEMO-0116,2025-Q3,new_york,Doctorate,Data Science / Analytics,data_analyst,A/B Testing;AWS;Business Acumen;CI/CD;Communication;Data Modeling;Data Visualization;Excel;Networking;Power BI;Problem Solving;Python;R;SQL;Statistics,yes
+DEMO-0117,2026-Q2,chicago,Bachelor's (in progress),Computer Science,security_analyst,Communication;Linux;NLP;Networking;Python;SQL;Statistics,yes
+DEMO-0118,2025-Q1,dallas,Master's (in progress),Computer Science,ml_engineer,Azure;Deep Learning;Docker;MLOps;Machine Learning;NLP;Python;REST APIs;SQL;Spark;Statistics;System Design,yes
+DEMO-0119,2025-Q3,seattle,Master's (in progress),Engineering,data_analyst,A/B Testing;Communication;Data Visualization;Power BI;Problem Solving;Python;R;REST APIs;SQL;Statistics,yes
+DEMO-0120,2026-Q1,atlanta,Bachelor's (in progress),Data Science / Analytics,web_developer,Communication;HTML/CSS;JavaScript;NoSQL Databases;Problem Solving;Python;REST APIs;React;SQL,yes
+DEMO-0121,2025-Q3,dallas,Master's (in progress),Computer Science,software_engineer,AWS;Business Acumen;C++;Java;JavaScript;Linux;MLOps;Problem Solving;Python;REST APIs;SQL;Stakeholder Management;Terraform;Testing / QA Automation,yes
+DEMO-0122,2025-Q3,chicago,Bachelor's (in progress),Computer Science,software_engineer,AWS;Agile / Scrum;CI/CD;Data Visualization;Docker;Git;Java;Linux;Python;System Design;Testing / QA Automation,yes
+DEMO-0123,2025-Q4,new_york,Bachelor's (completed),Data Science / Analytics,data_scientist,Deep Learning;Machine Learning;NLP;Problem Solving;Python;SQL;Spark,yes
+DEMO-0124,2025-Q4,atlanta,Bachelor's (completed),Business / Finance,data_scientist,A/B Testing;Communication;Data Visualization;Deep Learning;ETL / Data Pipelines;Excel;Git;Java;Machine Learning;Python;R;Spark;Statistics,yes
+DEMO-0125,2025-Q4,chicago,Doctorate,Other,data_analyst,A/B Testing;Communication;Data Modeling;Data Visualization;Excel;NoSQL Databases;Problem Solving;R;SQL;Spark;Stakeholder Management;Statistics;Tableau,yes
+DEMO-0126,2026-Q1,washington_dc,Master's (in progress),Mathematics / Statistics,cloud_engineer,AWS;C++;Docker;GCP;Linux;Networking;Python;System Design,yes
+DEMO-0127,2026-Q2,chicago,Bachelor's (completed),Business / Finance,data_analyst,Business Acumen;Data Modeling;Data Visualization;Excel;Git;Power BI;Problem Solving;SQL;Stakeholder Management;Statistics,yes
+DEMO-0128,2026-Q1,chicago,Master's (completed),Data Science / Analytics,cloud_engineer,AWS;Azure;CI/CD;Docker;Financial Modeling;GCP;Git;Kubernetes;Linux;NoSQL Databases;Python;Terraform,yes
+DEMO-0129,2026-Q1,chicago,Master's (completed),Computer Science,ml_engineer,A/B Testing;AWS;Deep Learning;Git;Kubernetes;Linux;MLOps;Python;REST APIs;Spark,yes
+DEMO-0130,2025-Q2,san_francisco,Bachelor's (in progress),Computer Science,software_engineer,AWS;CI/CD;Communication;Java;Linux;MLOps;Problem Solving;System Design;Testing / QA Automation,yes
+DEMO-0131,2025-Q2,boston,Bachelor's (completed),Information Systems,data_scientist,A/B Testing;Communication;Data Visualization;Deep Learning;Linux;Machine Learning;Problem Solving;R;SQL;Spark;Statistics,yes
+DEMO-0132,2025-Q4,chicago,Bachelor's (completed),Data Science / Analytics,security_analyst,AWS;C++;Cybersecurity;Data Modeling;Linux;Networking;Problem Solving;Risk & Compliance,yes
+DEMO-0133,2026-Q1,austin,Master's (completed),Mathematics / Statistics,cloud_engineer,CI/CD;Cybersecurity;Deep Learning;GCP;Linux;Networking;Python;React;System Design,yes
+DEMO-0134,2025-Q4,austin,Doctorate,Data Science / Analytics,data_analyst,Business Acumen;CI/CD;Communication;Data Modeling;Data Visualization;Excel;Problem Solving;Python;R;SQL;Statistics;Tableau,yes
+DEMO-0135,2026-Q2,chicago,Bachelor's (in progress),Engineering,software_engineer,C++;Communication;Git;Java;Linux;Problem Solving;Python;Terraform,yes
+DEMO-0136,2025-Q4,austin,Master's (in progress),Engineering,web_developer,AWS;Agile / Scrum;Business Acumen;Communication;Data Modeling;JavaScript;NoSQL Databases;REST APIs;React;Stakeholder Management;Testing / QA Automation,yes
+DEMO-0137,2025-Q3,chicago,Master's (completed),Computer Science,data_analyst,Business Acumen;Data Modeling;Data Visualization;Excel;Networking;Power BI;Problem Solving;Python;SQL;Stakeholder Management;Tableau,yes
+DEMO-0138,2025-Q3,chicago,Bachelor's (in progress),Computer Science,financial_analyst,Business Acumen;Excel;Financial Modeling;NLP;Python;SQL;Stakeholder Management,yes
+DEMO-0139,2025-Q2,chicago,Master's (in progress),Data Science / Analytics,data_engineer,Airflow;Azure;Business Acumen;CI/CD;Data Modeling;Docker;ETL / Data Pipelines;Git;Java;Kafka;NoSQL Databases;Power BI;Spark;Terraform,yes
+DEMO-0140,2026-Q1,austin,Master's (completed),Data Science / Analytics,data_analyst,Airflow;Business Acumen;Communication;Data Modeling;ETL / Data Pipelines;Excel;Power BI;Problem Solving;Python;R;REST APIs;Risk & Compliance;SQL;Statistics;Tableau,yes
+DEMO-0141,2025-Q4,chicago,Master's (in progress),Other,database_admin,Data Modeling;Data Visualization;Deep Learning;Docker;Linux;Networking;Problem Solving;SQL,yes
+DEMO-0142,2025-Q4,dallas,Master's (in progress),Data Science / Analytics,statistician,A/B Testing;Communication;Excel;Machine Learning;Problem Solving;Python;Risk & Compliance;SQL;Spark;Statistics;Terraform,yes
+DEMO-0143,2025-Q2,atlanta,Bachelor's (completed),Computer Science,ml_engineer,AWS;Docker;Git;Kubernetes;MLOps;NLP;REST APIs;SQL;Spark;Statistics,yes
+DEMO-0144,2026-Q1,seattle,Bachelor's (completed),Computer Science,systems_analyst,Agile / Scrum;GCP;Java;Machine Learning;Problem Solving;Project Management;SQL;Stakeholder Management;System Design,yes
+DEMO-0145,2026-Q2,chicago,Bachelor's (in progress),Data Science / Analytics,cloud_engineer,Azure;CI/CD;Cybersecurity;Docker;Excel;Kubernetes;Networking;System Design,yes
+DEMO-0146,2025-Q2,chicago,Bachelor's (in progress),Business / Finance,data_scientist,A/B Testing;Communication;Data Visualization;Git;NLP;Python;Spark;Statistics,yes
+DEMO-0147,2026-Q1,new_york,Bachelor's (completed),Data Science / Analytics,data_analyst,A/B Testing;Business Acumen;Communication;Data Visualization;Excel;GCP;Problem Solving;R;SQL;Statistics;Testing / QA Automation,yes
+DEMO-0148,2025-Q2,chicago,Master's (in progress),Computer Science,software_engineer,AWS;CI/CD;Docker;Git;HTML/CSS;Java;JavaScript;Python;Statistics;Testing / QA Automation,yes
+DEMO-0149,2025-Q1,chicago,Master's (in progress),Business / Finance,web_developer,Agile / Scrum;Git;JavaScript;Problem Solving;REST APIs;React;SQL;Testing / QA Automation,yes
+DEMO-0150,2026-Q2,chicago,Master's (completed),Data Science / Analytics,data_engineer,AWS;Airflow;CI/CD;Communication;Data Modeling;Financial Modeling;Java;Kafka;Kubernetes;Linux;NoSQL Databases;Risk & Compliance;SQL,yes
+DEMO-0151,2026-Q2,chicago,Doctorate,Data Science / Analytics,ml_engineer,AWS;CI/CD;Git;Kubernetes;Linux;MLOps;Machine Learning;Problem Solving;REST APIs;Spark;System Design,yes
+DEMO-0152,2025-Q1,chicago,Master's (in progress),Computer Science,software_engineer,AWS;C++;Docker;Git;Python;REST APIs;SQL;Tableau;Testing / QA Automation,yes
+DEMO-0153,2026-Q2,chicago,Bachelor's (completed),Other,data_scientist,Communication;Data Modeling;Data Visualization;Deep Learning;Git;MLOps;Machine Learning;Problem Solving;Python;R;SQL;Statistics,yes
+DEMO-0154,2025-Q2,new_york,Bachelor's (in progress),Engineering,data_analyst,A/B Testing;CI/CD;Data Modeling;Excel;Financial Modeling;Linux;Problem Solving;R;REST APIs;SQL;Statistics,yes
+DEMO-0155,2026-Q1,chicago,Bachelor's (in progress),Information Systems,data_scientist,AWS;Communication;Data Visualization;Deep Learning;Git;Kafka;Machine Learning;NLP;Python;R;SQL;Spark;Statistics;Testing / QA Automation,yes
+DEMO-0156,2026-Q2,chicago,Master's (in progress),Data Science / Analytics,data_engineer,Agile / Scrum;Airflow;Communication;Data Modeling;Docker;ETL / Data Pipelines;Git;Java;Kafka;Python;SQL;Spark;Terraform,yes
+DEMO-0157,2025-Q2,austin,Master's (completed),Information Systems,web_developer,AWS;Communication;GCP;Git;JavaScript;Linux;NoSQL Databases;React;Terraform;Testing / QA Automation,yes
+DEMO-0158,2026-Q2,chicago,Master's (in progress),Computer Science,data_analyst,A/B Testing;Business Acumen;Communication;Excel;Power BI;Problem Solving;SQL;Stakeholder Management;Statistics;Tableau,yes
+DEMO-0159,2025-Q3,chicago,Master's (completed),Data Science / Analytics,data_scientist,AWS;Airflow;Cybersecurity;Data Visualization;NLP;Problem Solving;REST APIs;SQL;Spark;Statistics,yes
+DEMO-0160,2025-Q4,chicago,Bachelor's (in progress),Information Systems,software_engineer,AWS;Agile / Scrum;C++;CI/CD;Git;Java;JavaScript;Python;REST APIs;SQL;System Design;Testing / QA Automation,yes
+DEMO-0161,2026-Q2,chicago,Master's (in progress),Computer Science,devops_engineer,AWS;CI/CD;Docker;Git;Linux;Networking;Terraform;Testing / QA Automation,yes
+DEMO-0162,2025-Q3,chicago,Master's (completed),Data Science / Analytics,data_engineer,Agile / Scrum;Azure;Communication;Docker;ETL / Data Pipelines;Git;Java;Kafka;NoSQL Databases;Python;Risk & Compliance;Spark;Stakeholder Management;Tableau;Terraform,yes
+DEMO-0163,2025-Q4,chicago,Doctorate,Mathematics / Statistics,software_engineer,AWS;CI/CD;Communication;Excel;JavaScript;Machine Learning;Problem Solving;Python;SQL;System Design;Terraform,yes
+DEMO-0164,2025-Q4,san_francisco,Bachelor's (completed),Computer Science,data_analyst,Communication;Excel;Problem Solving;Project Management;R;SQL;Stakeholder Management,yes
+DEMO-0165,2025-Q3,boston,Bachelor's (completed),Information Systems,software_engineer,AWS;Agile / Scrum;Airflow;CI/CD;Communication;Cybersecurity;Git;Java;Problem Solving;SQL;System Design;Terraform,yes
+DEMO-0166,2025-Q3,boston,Bachelor's (completed),Business / Finance,software_engineer,A/B Testing;AWS;CI/CD;Docker;Git;Java;Problem Solving;Python;REST APIs;System Design,yes
+DEMO-0167,2026-Q2,chicago,Master's (completed),Computer Science,software_engineer,Agile / Scrum;C++;Communication;Docker;Financial Modeling;Git;JavaScript;Problem Solving;Python;REST APIs;SQL,yes
+DEMO-0168,2025-Q4,chicago,Master's (in progress),Data Science / Analytics,systems_analyst,Business Acumen;Communication;Data Modeling;Data Visualization;Python;System Design,yes
+DEMO-0169,2025-Q4,atlanta,Master's (in progress),Business / Finance,data_analyst,A/B Testing;Agile / Scrum;Communication;Data Visualization;Excel;Power BI;SQL;Statistics;Tableau,yes
+DEMO-0170,2025-Q2,chicago,Master's (in progress),Engineering,data_scientist,A/B Testing;Communication;Data Visualization;Deep Learning;Git;Machine Learning;Problem Solving;Spark;Stakeholder Management;Statistics,yes
+DEMO-0171,2026-Q2,chicago,Master's (in progress),Data Science / Analytics,software_engineer,AWS;C++;CI/CD;Docker;Financial Modeling;Git;Machine Learning;Problem Solving;SQL,yes
+DEMO-0172,2025-Q1,boston,Master's (completed),Computer Science,data_engineer,Airflow;Azure;Communication;Data Modeling;ETL / Data Pipelines;Git;MLOps;NoSQL Databases;Python;SQL,yes
+DEMO-0173,2026-Q1,austin,Bachelor's (in progress),Computer Science,data_scientist,A/B Testing;AWS;Docker;Machine Learning;NLP;Problem Solving;R;Spark;Statistics,yes
+DEMO-0174,2026-Q1,chicago,Bachelor's (completed),Computer Science,data_scientist,Communication;Git;Machine Learning;Python;R;SQL;Spark;Statistics;System Design,yes
+DEMO-0175,2025-Q2,new_york,Bachelor's (in progress),Information Systems,software_engineer,AWS;C++;Communication;Git;HTML/CSS;JavaScript;Kafka;Linux;Networking;NoSQL Databases;Problem Solving;Python;Testing / QA Automation,yes
+DEMO-0176,2025-Q1,boston,Bachelor's (completed),Computer Science,data_scientist,AWS;Machine Learning;NLP;Power BI;R;Statistics,yes
+DEMO-0177,2026-Q1,chicago,Master's (completed),Computer Science,cloud_engineer,AWS;Azure;Git;Kafka;Linux;Networking;Power BI;Python;System Design;Terraform,yes
+DEMO-0178,2025-Q3,chicago,Master's (in progress),Business / Finance,data_scientist,Communication;Git;Linux;Python;R;SQL;Statistics,yes
+DEMO-0179,2025-Q1,san_francisco,Bachelor's (in progress),Computer Science,data_scientist,AWS;Data Visualization;Deep Learning;Kubernetes;Machine Learning;NLP;Problem Solving;SQL;Spark;Statistics,yes
+DEMO-0180,2026-Q2,dallas,Master's (in progress),Computer Science,cloud_engineer,AWS;Azure;CI/CD;Cybersecurity;Data Visualization;Docker;GCP;Git;Kubernetes;Linux;MLOps;Python;Terraform,yes
+DEMO-0181,2026-Q1,chicago,Bachelor's (completed),Business / Finance,data_engineer,AWS;CI/CD;Communication;ETL / Data Pipelines;Kafka;Linux;NoSQL Databases;Python;SQL,yes
+DEMO-0182,2025-Q4,new_york,Master's (completed),Data Science / Analytics,software_engineer,Agile / Scrum;C++;Git;Java;JavaScript;Problem Solving;Python;REST APIs;SQL;Terraform;Testing / QA Automation,yes
+DEMO-0183,2026-Q1,dallas,Master's (in progress),Data Science / Analytics,data_scientist,A/B Testing;Data Visualization;Git;NLP;R;React;SQL,yes
+DEMO-0184,2025-Q2,chicago,Bachelor's (completed),Data Science / Analytics,qa_engineer,Agile / Scrum;Communication;Data Visualization;Git;Java;Kubernetes;Power BI;Python;REST APIs;SQL;Testing / QA Automation,yes
+DEMO-0185,2026-Q1,austin,Master's (in progress),Information Systems,cloud_engineer,Azure;Business Acumen;CI/CD;Docker;GCP;Git;Kubernetes;Terraform,yes
+DEMO-0186,2025-Q1,new_york,Master's (in progress),Information Systems,data_scientist,Agile / Scrum;Communication;Data Visualization;Deep Learning;NLP;Python;R;SQL;Spark;Statistics,yes
+DEMO-0187,2026-Q1,seattle,Bachelor's (completed),Mathematics / Statistics,data_scientist,Communication;Data Visualization;ETL / Data Pipelines;GCP;Kafka;Machine Learning;Problem Solving;Python;R;SQL,yes
+DEMO-0188,2025-Q4,austin,Master's (in progress),Computer Science,data_scientist,Machine Learning;NoSQL Databases;Python;Risk & Compliance;SQL;Statistics;Tableau,yes
+DEMO-0189,2025-Q3,chicago,Master's (completed),Engineering,devops_engineer,Azure;CI/CD;Cybersecurity;Docker;Git;Kafka;Linux;Problem Solving;Python;React;Terraform,yes
+DEMO-0190,2026-Q2,atlanta,Master's (completed),Information Systems,software_engineer,C++;Communication;Git;Java;JavaScript;Kubernetes;Problem Solving;Python;REST APIs;Spark;System Design;Testing / QA Automation,yes
+DEMO-0191,2025-Q3,chicago,Master's (in progress),Data Science / Analytics,data_analyst,A/B Testing;Business Acumen;Data Modeling;Data Visualization;Excel;Java;Power BI;Problem Solving;Statistics;Tableau;Terraform,yes
+DEMO-0192,2026-Q1,boston,Master's (in progress),Business / Finance,data_scientist,A/B Testing;C++;Communication;Data Visualization;GCP;Git;Machine Learning;NLP;Python;R;SQL;Spark;Statistics,yes
+DEMO-0193,2025-Q2,chicago,Bachelor's (in progress),Computer Science,qa_engineer,CI/CD;Git;Java;JavaScript;MLOps;Problem Solving;Python;REST APIs,yes
+DEMO-0194,2025-Q3,chicago,Master's (in progress),Engineering,web_developer,Agile / Scrum;Git;HTML/CSS;Kafka;REST APIs;React;SQL;Testing / QA Automation,yes
+DEMO-0195,2025-Q4,chicago,Master's (in progress),Business / Finance,data_analyst,A/B Testing;Business Acumen;Excel;MLOps;Power BI;R;SQL;Stakeholder Management;Statistics,yes
+DEMO-0196,2025-Q3,chicago,Bachelor's (in progress),Information Systems,ml_engineer,C++;CI/CD;Deep Learning;Linux;MLOps;Machine Learning;REST APIs;SQL;Spark;System Design,yes
+DEMO-0197,2026-Q2,new_york,Master's (in progress),Business / Finance,data_scientist,A/B Testing;Deep Learning;Machine Learning;NLP;Python;R;Risk & Compliance;SQL;Statistics,yes
+DEMO-0198,2025-Q4,dallas,Master's (completed),Information Systems,data_engineer,A/B Testing;AWS;Airflow;Azure;Data Modeling;ETL / Data Pipelines;Git;Kafka;Linux;NLP;SQL;Spark,yes
+DEMO-0199,2025-Q2,boston,Master's (in progress),Business / Finance,security_analyst,Communication;Cybersecurity;Git;Networking;Problem Solving;Python;R;Statistics,yes
+DEMO-0200,2025-Q2,chicago,Master's (in progress),Business / Finance,data_scientist,A/B Testing;AWS;Communication;Data Visualization;Deep Learning;Machine Learning;Problem Solving;Python;R;Spark;Statistics,yes
+DEMO-0201,2025-Q4,chicago,Doctorate,Computer Science,data_scientist,A/B Testing;Communication;Data Visualization;Git;Linux;Machine Learning;NLP;Networking;Problem Solving;Python;R;Spark;Statistics,yes
+DEMO-0202,2026-Q1,seattle,Bachelor's (completed),Computer Science,data_analyst,A/B Testing;Business Acumen;CI/CD;Data Modeling;Data Visualization;Excel;Problem Solving;R;SQL;Stakeholder Management;Tableau,yes
+DEMO-0203,2025-Q3,seattle,Master's (in progress),Business / Finance,data_analyst,Business Acumen;Data Visualization;Excel;Kafka;Power BI;Problem Solving;Python;Statistics,yes
+DEMO-0204,2025-Q2,dallas,Bachelor's (completed),Data Science / Analytics,data_scientist,A/B Testing;Data Visualization;Git;NLP;Problem Solving;R;React,yes
+DEMO-0205,2026-Q2,boston,Bachelor's (in progress),Computer Science,ml_engineer,AWS;Deep Learning;Git;Linux;MLOps;Machine Learning;Problem Solving;Python;REST APIs;SQL;Statistics;Tableau,yes
+DEMO-0206,2025-Q3,chicago,Master's (in progress),Computer Science,data_scientist,A/B Testing;Communication;Data Visualization;Kubernetes;Machine Learning;Problem Solving;Python;R;Spark;Statistics,yes
+DEMO-0207,2026-Q2,dallas,Bachelor's (completed),Data Science / Analytics,data_engineer,CI/CD;Data Modeling;Docker;ETL / Data Pipelines;Git;Spark;Terraform,yes
+DEMO-0208,2025-Q2,chicago,Master's (in progress),Business / Finance,data_engineer,Airflow;Communication;Data Modeling;Docker;ETL / Data Pipelines;Git;Java;Kafka;Kubernetes;Linux;NoSQL Databases;REST APIs;SQL;Spark,yes
+DEMO-0209,2025-Q3,chicago,Master's (completed),Engineering,data_scientist,A/B Testing;AWS;Data Visualization;Deep Learning;Docker;Git;Java;Machine Learning;Problem Solving;Python;R;Spark;Statistics,yes
+DEMO-0210,2025-Q3,seattle,Bachelor's (in progress),Business / Finance,ml_engineer,AWS;CI/CD;Deep Learning;Docker;GCP;Git;MLOps;Python;SQL;System Design,yes
+DEMO-0211,2025-Q3,chicago,Master's (in progress),Computer Science,devops_engineer,Communication;Cybersecurity;Docker;Linux;R;React;Terraform,yes
+DEMO-0212,2026-Q1,new_york,Master's (in progress),Engineering,statistician,A/B Testing;Business Acumen;Data Visualization;Financial Modeling;MLOps;Machine Learning;Problem Solving;Project Management;Python;SQL,yes
+DEMO-0213,2025-Q4,boston,Bachelor's (in progress),Data Science / Analytics,data_analyst,A/B Testing;AWS;Data Modeling;Data Visualization;Excel;Power BI;Problem Solving;Python;R;SQL;Stakeholder Management;Statistics;Tableau,yes
+DEMO-0214,2026-Q2,boston,Bachelor's (completed),Data Science / Analytics,qa_engineer,A/B Testing;Agile / Scrum;CI/CD;Docker;JavaScript;Problem Solving;Python;SQL;Terraform;Testing / QA Automation,yes
+DEMO-0215,2025-Q3,chicago,Master's (in progress),Mathematics / Statistics,cloud_engineer,AWS;Azure;GCP;Git;Spark;System Design;Terraform,yes
+DEMO-0216,2025-Q1,chicago,Master's (in progress),Data Science / Analytics,data_engineer,Agile / Scrum;Airflow;CI/CD;Communication;Data Modeling;ETL / Data Pipelines;SQL;Spark,yes
+DEMO-0217,2025-Q3,seattle,Bachelor's (in progress),Data Science / Analytics,data_analyst,Communication;Data Modeling;Data Visualization;Excel;JavaScript;MLOps;SQL;Stakeholder Management;Tableau,yes
+DEMO-0218,2026-Q2,atlanta,Bachelor's (completed),Information Systems,ml_engineer,Deep Learning;GCP;Git;Linux;MLOps;Machine Learning;NLP;Python;React;SQL;Spark;Statistics,yes
+DEMO-0219,2026-Q2,seattle,Master's (in progress),Information Systems,data_analyst,AWS;Data Modeling;Data Visualization;Power BI;Python;SQL;Spark;Stakeholder Management;Tableau,yes
+DEMO-0220,2025-Q4,washington_dc,Master's (in progress),Computer Science,data_scientist,A/B Testing;Deep Learning;ETL / Data Pipelines;Git;Machine Learning;Problem Solving;Python;R;SQL;Spark;Statistics;System Design,yes
+DEMO-0221,2026-Q2,chicago,Master's (in progress),Business / Finance,project_manager,AWS;Agile / Scrum;Business Acumen;Communication;Excel;Problem Solving;Python;Stakeholder Management;System Design,yes
+DEMO-0222,2026-Q2,new_york,Master's (in progress),Computer Science,data_scientist,Communication;Git;Machine Learning;NLP;NoSQL Databases;Problem Solving;Python;SQL;Spark;Statistics,yes
+DEMO-0223,2026-Q1,chicago,Master's (in progress),Information Systems,systems_analyst,Agile / Scrum;Business Acumen;CI/CD;Communication;Excel;Problem Solving;Project Management;SQL;Stakeholder Management;System Design;Testing / QA Automation,yes
+DEMO-0224,2025-Q1,atlanta,Doctorate,Computer Science,data_engineer,AWS;Airflow;CI/CD;Communication;Data Modeling;Data Visualization;ETL / Data Pipelines;Git;Kafka;NoSQL Databases;Spark;Stakeholder Management,yes
+DEMO-0225,2026-Q1,chicago,Master's (in progress),Computer Science,data_analyst,A/B Testing;Airflow;Business Acumen;Communication;Data Visualization;Excel;Problem Solving;Python;R;SQL;Statistics;Tableau,yes
+DEMO-0226,2026-Q2,austin,Bachelor's (in progress),Data Science / Analytics,data_engineer,AWS;Azure;Data Modeling;Git;Java;Kafka;Linux;NLP;Python;Spark;Terraform,yes
+DEMO-0227,2025-Q2,chicago,Master's (in progress),Information Systems,web_developer,Agile / Scrum;Git;HTML/CSS;Java;JavaScript;NLP;Problem Solving;REST APIs;React;SQL,yes
+DEMO-0228,2026-Q2,chicago,Bachelor's (completed),Business / Finance,ml_engineer,A/B Testing;AWS;Deep Learning;GCP;Git;Kubernetes;Linux;Machine Learning;Python;REST APIs;SQL;Spark;Stakeholder Management;Statistics,yes
+DEMO-0229,2025-Q3,austin,Bachelor's (completed),Engineering,software_engineer,Agile / Scrum;Airflow;C++;Git;Machine Learning;NoSQL Databases;Problem Solving;Python;REST APIs;SQL;Testing / QA Automation,yes
+DEMO-0230,2025-Q3,chicago,Master's (in progress),Computer Science,ml_engineer,Agile / Scrum;Docker;GCP;Git;Kubernetes;Machine Learning;Python;Statistics;Testing / QA Automation,yes
+DEMO-0231,2025-Q4,austin,Master's (completed),Engineering,financial_analyst,Business Acumen;C++;Cybersecurity;Excel;Financial Modeling;Java;Power BI;Python;Stakeholder Management;Tableau,yes
+DEMO-0232,2025-Q2,chicago,Bachelor's (completed),Data Science / Analytics,cloud_engineer,AWS;Azure;CI/CD;Docker;Git;Java;Linux;Python;Stakeholder Management,yes
+DEMO-0233,2026-Q1,atlanta,Bachelor's (in progress),Data Science / Analytics,data_engineer,AWS;Airflow;Azure;Communication;Data Modeling;ETL / Data Pipelines;Java;Kafka;Linux;Power BI;Python;SQL,yes
+DEMO-0234,2025-Q1,seattle,Master's (completed),Data Science / Analytics,software_engineer,Agile / Scrum;C++;CI/CD;HTML/CSS;JavaScript;NoSQL Databases;REST APIs;System Design;Tableau;Testing / QA Automation,yes
+DEMO-0235,2026-Q2,new_york,Master's (in progress),Engineering,data_analyst,A/B Testing;Business Acumen;Communication;Data Modeling;Data Visualization;Excel;Problem Solving;Python;React;SQL;Stakeholder Management;Tableau,yes
+DEMO-0236,2025-Q2,dallas,Master's (in progress),Information Systems,ml_engineer,AWS;Deep Learning;Docker;GCP;Git;MLOps;Machine Learning;Python;REST APIs;SQL;Spark;System Design;Testing / QA Automation,yes
+DEMO-0237,2025-Q4,chicago,Master's (in progress),Data Science / Analytics,ml_engineer,CI/CD;Docker;GCP;Kubernetes;Linux;MLOps;Machine Learning;Networking;R;SQL,yes
+DEMO-0238,2025-Q2,washington_dc,Bachelor's (in progress),Information Systems,database_admin,Airflow;Kubernetes;REST APIs;SQL,yes
+DEMO-0239,2026-Q2,chicago,Bachelor's (in progress),Computer Science,data_analyst,A/B Testing;Business Acumen;Communication;Cybersecurity;Data Modeling;Data Visualization;Excel;Git;Power BI;Problem Solving;Python;SQL;Statistics;System Design,yes
+DEMO-0240,2026-Q1,chicago,Master's (in progress),Data Science / Analytics,software_engineer,AWS;Agile / Scrum;C++;CI/CD;Excel;GCP;Git;Java;JavaScript;Linux;Project Management;SQL;System Design;Testing / QA Automation,yes
+DEMO-0241,2026-Q2,dallas,Bachelor's (in progress),Data Science / Analytics,ml_engineer,Airflow;CI/CD;Deep Learning;Docker;GCP;JavaScript;MLOps;Machine Learning;NLP;Python;Spark;Statistics,yes
+DEMO-0242,2026-Q2,austin,Bachelor's (completed),Computer Science,ml_engineer,Azure;Business Acumen;Communication;Docker;GCP;Git;Kubernetes;MLOps;Machine Learning;Project Management;Python;REST APIs;Spark,yes
+DEMO-0243,2025-Q3,washington_dc,Bachelor's (in progress),Data Science / Analytics,web_developer,Business Acumen;Cybersecurity;Git;HTML/CSS;JavaScript;Problem Solving;REST APIs;React;SQL;Testing / QA Automation,yes
+DEMO-0244,2026-Q2,san_francisco,Master's (in progress),Computer Science,devops_engineer,Azure;CI/CD;Cybersecurity;Docker;Git;Kubernetes;Linux;Networking;Python;Tableau;Terraform,yes
+DEMO-0245,2026-Q2,seattle,Master's (in progress),Engineering,data_analyst,Data Modeling;Data Visualization;Excel;Financial Modeling;Problem Solving;Python;R;Tableau,yes
+DEMO-0246,2026-Q1,chicago,Bachelor's (in progress),Mathematics / Statistics,cloud_engineer,AWS;Agile / Scrum;Cybersecurity;Deep Learning;Docker;Financial Modeling;GCP;Git;Linux;Networking;Python;System Design;Terraform,yes
+DEMO-0247,2026-Q1,washington_dc,Master's (in progress),Mathematics / Statistics,web_developer,Git;JavaScript;NoSQL Databases;Problem Solving;REST APIs;React;System Design,yes
+DEMO-0248,2025-Q3,chicago,Master's (in progress),Mathematics / Statistics,software_engineer,C++;CI/CD;Communication;Cybersecurity;Docker;Java;JavaScript;NLP;Python;R;REST APIs;Testing / QA Automation,yes
+DEMO-0249,2026-Q1,dallas,Bachelor's (in progress),Mathematics / Statistics,data_analyst,Azure;Communication;Data Visualization;Excel;MLOps;NLP;Power BI;Problem Solving;SQL;Tableau,yes
+DEMO-0250,2026-Q2,chicago,Bachelor's (in progress),Engineering,software_engineer,Agile / Scrum;CI/CD;Communication;Deep Learning;Docker;Git;HTML/CSS;Java;JavaScript;System Design;Terraform;Testing / QA Automation,yes
+DEMO-0251,2025-Q4,chicago,Master's (in progress),Data Science / Analytics,security_analyst,AWS;Agile / Scrum;Airflow;Communication;Cybersecurity;JavaScript;Networking;Problem Solving;Python;Risk & Compliance,yes
+DEMO-0252,2025-Q2,seattle,Master's (completed),Computer Science,data_engineer,Airflow;CI/CD;Docker;Kafka;Linux;NoSQL Databases;SQL;Spark,yes
+DEMO-0253,2026-Q2,chicago,Bachelor's (in progress),Computer Science,data_analyst,Business Acumen;Communication;Data Modeling;Data Visualization;Excel;Python;Risk & Compliance;SQL;Stakeholder Management;Statistics,yes
+DEMO-0254,2026-Q1,san_francisco,Bachelor's (completed),Information Systems,data_analyst,A/B Testing;Business Acumen;Communication;Data Visualization;Excel;Machine Learning;Power BI;Python;SQL;Stakeholder Management;Statistics;Terraform,yes
+DEMO-0255,2025-Q4,seattle,Bachelor's (completed),Computer Science,software_engineer,Agile / Scrum;C++;CI/CD;Docker;Java;JavaScript;Linux;NoSQL Databases;Problem Solving;Python;SQL;Stakeholder Management,yes
+DEMO-0256,2026-Q2,atlanta,Master's (in progress),Information Systems,data_engineer,AWS;Airflow;Azure;CI/CD;Data Modeling;ETL / Data Pipelines;Git;Python;Spark,yes
+DEMO-0257,2025-Q3,new_york,Bachelor's (completed),Data Science / Analytics,data_analyst,Business Acumen;Communication;Data Visualization;Excel;Kubernetes;Linux;Problem Solving;Python;R;SQL;Statistics,yes
+DEMO-0258,2025-Q3,austin,Master's (in progress),Other,data_scientist,A/B Testing;Business Acumen;Data Visualization;Deep Learning;Machine Learning;Problem Solving;Python;R;SQL;Statistics,yes
+DEMO-0259,2025-Q4,san_francisco,Master's (in progress),Data Science / Analytics,web_developer,Agile / Scrum;Git;HTML/CSS;NoSQL Databases;Power BI;Problem Solving;REST APIs,yes
+DEMO-0260,2025-Q3,austin,Master's (in progress),Computer Science,qa_engineer,CI/CD;Communication;Data Modeling;Docker;Java;JavaScript;NoSQL Databases;Problem Solving;Python;SQL;Testing / QA Automation,yes
+DEMO-0261,2025-Q4,seattle,Bachelor's (completed),Mathematics / Statistics,devops_engineer,Business Acumen;Communication;Cybersecurity;Docker;Git;Linux;Networking;Problem Solving;Python;Tableau,yes
+DEMO-0262,2025-Q4,seattle,Master's (in progress),Engineering,security_analyst,CI/CD;Communication;Cybersecurity;Excel;Linux;Networking;Problem Solving;R;Risk & Compliance;Stakeholder Management,yes
+DEMO-0263,2026-Q2,atlanta,Master's (in progress),Computer Science,data_engineer,AWS;Airflow;Azure;Data Modeling;Deep Learning;Docker;ETL / Data Pipelines;Git;Java;Kafka,yes
+DEMO-0264,2026-Q2,chicago,Bachelor's (in progress),Business / Finance,data_scientist,Communication;Data Visualization;Git;Machine Learning;NLP;Problem Solving;R;Statistics,yes
+DEMO-0265,2026-Q2,chicago,Master's (in progress),Computer Science,software_engineer,Agile / Scrum;C++;Communication;Cybersecurity;Docker;Git;JavaScript;Linux;Problem Solving;REST APIs;Testing / QA Automation,yes
+DEMO-0266,2026-Q2,chicago,Bachelor's (in progress),Mathematics / Statistics,data_engineer,AWS;Airflow;Azure;CI/CD;Communication;Data Modeling;Docker;Git;HTML/CSS;Java;Kafka;NoSQL Databases;R;SQL;Spark;Terraform,yes
+DEMO-0267,2026-Q1,atlanta,Bachelor's (in progress),Information Systems,financial_analyst,CI/CD;Communication;Financial Modeling;JavaScript;Power BI;Python;Statistics;Terraform,yes
+DEMO-0268,2025-Q3,atlanta,Bachelor's (completed),Computer Science,software_engineer,Airflow;C++;Communication;Docker;Java;Linux;Problem Solving;Project Management;Python;REST APIs;SQL;System Design,yes
+DEMO-0269,2026-Q2,chicago,Bachelor's (completed),Other,data_scientist,A/B Testing;Business Acumen;Communication;Machine Learning;Problem Solving;Python;Risk & Compliance;SQL;Spark;Statistics,yes
+DEMO-0270,2025-Q4,dallas,Master's (in progress),Computer Science,data_scientist,A/B Testing;Communication;HTML/CSS;Machine Learning;NLP;Problem Solving;Risk & Compliance;SQL;Spark;Statistics,yes
+DEMO-0271,2025-Q1,san_francisco,Doctorate,Business / Finance,data_scientist,A/B Testing;Communication;Deep Learning;Financial Modeling;Machine Learning;NLP;R;React;Spark;Stakeholder Management,yes
+DEMO-0272,2025-Q3,chicago,Master's (in progress),Engineering,cloud_engineer,AWS;Azure;CI/CD;GCP;Git;Kubernetes;Linux;Networking;Project Management;System Design;Terraform,yes
+DEMO-0273,2025-Q4,chicago,Bachelor's (completed),Computer Science,data_analyst,A/B Testing;Business Acumen;C++;Docker;Excel;Power BI;Problem Solving;Python;SQL;Stakeholder Management;Statistics,yes
+DEMO-0274,2026-Q2,chicago,Master's (completed),Computer Science,ml_engineer,AWS;CI/CD;Data Visualization;Deep Learning;Git;HTML/CSS;Kubernetes;MLOps;Machine Learning;Statistics;System Design;Testing / QA Automation,yes
+DEMO-0275,2026-Q2,chicago,Bachelor's (completed),Computer Science,data_analyst,A/B Testing;Communication;Data Modeling;Data Visualization;Excel;Financial Modeling;Power BI;Problem Solving;SQL,yes
+DEMO-0276,2025-Q1,austin,Master's (completed),Data Science / Analytics,data_analyst,C++;Data Visualization;Excel;Problem Solving;Python;SQL;Statistics;Tableau,yes
+DEMO-0277,2026-Q1,new_york,Master's (in progress),Engineering,financial_analyst,Business Acumen;Communication;Data Visualization;Docker;Excel;Linux;NLP;Power BI;Risk & Compliance,yes
+DEMO-0278,2025-Q3,washington_dc,Bachelor's (completed),Computer Science,software_engineer,AWS;C++;Communication;Git;Java;Linux;Power BI;Problem Solving;Python;REST APIs;System Design;Testing / QA Automation,yes
+DEMO-0279,2026-Q1,washington_dc,Bachelor's (completed),Engineering,data_engineer,Data Modeling;Docker;ETL / Data Pipelines;GCP;Git;Linux;NoSQL Databases;Python;Risk & Compliance;SQL;Spark;Statistics;Terraform;Testing / QA Automation,yes
+DEMO-0280,2026-Q2,seattle,Bachelor's (completed),Data Science / Analytics,project_manager,AWS;Agile / Scrum;Business Acumen;Communication;Data Visualization;Linux;Problem Solving;Project Management;Risk & Compliance;Stakeholder Management;Tableau,yes
+DEMO-0281,2026-Q1,new_york,Master's (completed),Data Science / Analytics,cloud_engineer,AWS;Azure;CI/CD;Cybersecurity;Docker;Kubernetes;Linux;Networking;Terraform,yes
+DEMO-0282,2025-Q1,chicago,Master's (in progress),Mathematics / Statistics,data_analyst,Airflow;Communication;Power BI;Problem Solving;Project Management;SQL;Statistics;Tableau,yes
+DEMO-0283,2026-Q1,chicago,Bachelor's (in progress),Engineering,data_scientist,A/B Testing;AWS;Deep Learning;Excel;Git;Machine Learning;NLP;Problem Solving;SQL;Spark;Statistics,yes
+DEMO-0284,2026-Q2,chicago,Master's (in progress),Engineering,data_analyst,A/B Testing;Business Acumen;C++;Communication;Data Modeling;Data Visualization;Docker;Excel;Power BI;Problem Solving;Python;R;SQL;Statistics;Tableau;Terraform,yes
+DEMO-0285,2025-Q3,boston,Master's (in progress),Computer Science,ml_engineer,CI/CD;Deep Learning;GCP;Git;Kubernetes;Linux;Machine Learning;NLP;Python;React;SQL;System Design,yes
+DEMO-0286,2026-Q1,austin,Master's (completed),Mathematics / Statistics,data_engineer,AWS;CI/CD;Data Modeling;Docker;ETL / Data Pipelines;GCP;Kafka;NoSQL Databases;R;SQL;Spark;Stakeholder Management,yes
+DEMO-0287,2026-Q1,chicago,Bachelor's (completed),Computer Science,data_analyst,Data Modeling;Data Visualization;Excel;MLOps;Power BI;R;SQL;Stakeholder Management,yes
+DEMO-0288,2026-Q2,san_francisco,Master's (completed),Data Science / Analytics,software_engineer,AWS;Azure;Communication;Git;JavaScript;Kubernetes;Linux;Machine Learning;Problem Solving;Python;REST APIs;SQL;System Design,yes
+DEMO-0289,2026-Q2,boston,Master's (in progress),Mathematics / Statistics,web_developer,Agile / Scrum;Communication;HTML/CSS;JavaScript;Linux;Problem Solving;REST APIs;React;Risk & Compliance;Testing / QA Automation,yes
+DEMO-0290,2025-Q2,seattle,Master's (completed),Computer Science,data_analyst,A/B Testing;AWS;Business Acumen;Data Modeling;Data Visualization;Excel;HTML/CSS;Kubernetes;Problem Solving;Python;SQL;Stakeholder Management;Statistics;Tableau;Testing / QA Automation,yes
+DEMO-0291,2026-Q1,atlanta,Master's (completed),Data Science / Analytics,qa_engineer,CI/CD;Git;MLOps;REST APIs;Testing / QA Automation,yes
+DEMO-0292,2026-Q2,austin,Master's (in progress),Data Science / Analytics,cloud_engineer,AWS;Azure;C++;GCP;Linux;NLP;Networking;Python;System Design;Testing / QA Automation,yes
+DEMO-0293,2025-Q3,chicago,Master's (completed),Data Science / Analytics,ml_engineer,Deep Learning;Docker;MLOps;NLP;SQL;Spark;Statistics;System Design;Tableau,yes
+DEMO-0294,2026-Q2,chicago,Master's (in progress),Computer Science,data_analyst,A/B Testing;Business Acumen;Communication;Data Visualization;Excel;NoSQL Databases;Power BI;Problem Solving;Python;SQL;Stakeholder Management;Statistics;Tableau,yes
+DEMO-0295,2025-Q3,seattle,Doctorate,Computer Science,software_engineer,AWS;C++;CI/CD;Communication;Docker;Git;Java;JavaScript;Linux;NLP;Problem Solving;REST APIs,yes
+DEMO-0296,2026-Q1,chicago,Bachelor's (completed),Computer Science,software_engineer,Azure;C++;CI/CD;Docker;Git;Java;JavaScript;Problem Solving;Python;REST APIs;SQL,yes
+DEMO-0297,2026-Q2,chicago,Bachelor's (in progress),Data Science / Analytics,statistician,A/B Testing;Communication;Excel;Machine Learning;Problem Solving;Python;Risk & Compliance;SQL,yes
+DEMO-0298,2025-Q3,dallas,Master's (completed),Information Systems,software_engineer,AWS;C++;CI/CD;Cybersecurity;Data Modeling;Git;Java;JavaScript;Problem Solving;Python;REST APIs;SQL,yes
+DEMO-0299,2025-Q4,chicago,Master's (completed),Computer Science,data_analyst,Business Acumen;CI/CD;Communication;Data Visualization;Excel;Kafka;Python;R;SQL;Stakeholder Management;Statistics;Tableau,yes
+DEMO-0300,2025-Q2,chicago,Bachelor's (in progress),Business / Finance,software_engineer,AWS;C++;Communication;Git;Java;REST APIs;System Design;Testing / QA Automation,yes
+DEMO-0301,2026-Q1,washington_dc,Master's (in progress),Data Science / Analytics,software_engineer,AWS;Agile / Scrum;Communication;Docker;Java;Problem Solving;REST APIs,yes
+DEMO-0302,2025-Q2,chicago,Bachelor's (in progress),Data Science / Analytics,financial_analyst,Communication;Financial Modeling;SQL;Stakeholder Management;Tableau,yes
+DEMO-0303,2025-Q2,new_york,Bachelor's (in progress),Business / Finance,software_engineer,C++;Git;JavaScript;Problem Solving;Python;REST APIs;System Design,yes
+DEMO-0304,2025-Q3,chicago,Bachelor's (in progress),Data Science / Analytics,project_manager,Agile / Scrum;Business Acumen;Communication;Financial Modeling;Kafka;Problem Solving;Project Management;React;Stakeholder Management;System Design,yes
+DEMO-0305,2025-Q2,dallas,Bachelor's (in progress),Computer Science,data_engineer,AWS;CI/CD;Communication;ETL / Data Pipelines;Kafka;NLP;NoSQL Databases;Python;SQL;Spark,yes
+DEMO-0306,2025-Q2,new_york,Bachelor's (in progress),Computer Science,software_engineer,AWS;Agile / Scrum;CI/CD;Communication;Docker;JavaScript;Linux;Testing / QA Automation,yes
+DEMO-0307,2026-Q2,dallas,Master's (completed),Computer Science,web_developer,Agile / Scrum;Communication;Deep Learning;Git;HTML/CSS;JavaScript;NoSQL Databases;Problem Solving;REST APIs,yes
+DEMO-0308,2025-Q1,atlanta,Master's (in progress),Data Science / Analytics,data_engineer,AWS;Airflow;Azure;Data Modeling;GCP;Kafka;REST APIs,yes
+DEMO-0309,2025-Q4,washington_dc,Master's (completed),Engineering,systems_analyst,Agile / Scrum;Business Acumen;Communication;Data Modeling;Git;Linux;Problem Solving;Project Management;SQL;Stakeholder Management;System Design;Testing / QA Automation,yes
+DEMO-0310,2026-Q1,chicago,Bachelor's (in progress),Business / Finance,qa_engineer,CI/CD;Communication;Docker;Excel;Java;Problem Solving;REST APIs;SQL,yes
+DEMO-0311,2025-Q3,seattle,Bachelor's (in progress),Computer Science,data_analyst,A/B Testing;Business Acumen;Communication;Data Modeling;Data Visualization;Power BI;Problem Solving;Project Management;Python;Stakeholder Management;Statistics;Terraform,yes
+DEMO-0312,2026-Q2,new_york,Master's (in progress),Engineering,qa_engineer,Communication;Data Modeling;Docker;Git;JavaScript;Problem Solving;REST APIs;SQL;Testing / QA Automation,yes
+DEMO-0313,2025-Q1,atlanta,Master's (completed),Mathematics / Statistics,data_engineer,Airflow;Azure;Communication;Data Modeling;ETL / Data Pipelines;Git;Machine Learning;NLP;NoSQL Databases;Python;SQL;Spark;Terraform,yes
+DEMO-0314,2025-Q4,san_francisco,Master's (completed),Engineering,data_engineer,AWS;Airflow;Communication;Data Modeling;Docker;Git;Kafka;MLOps;Machine Learning;NoSQL Databases;Python;Spark;Tableau,yes
+DEMO-0315,2025-Q3,chicago,Master's (in progress),Engineering,data_scientist,Agile / Scrum;Business Acumen;Data Visualization;Deep Learning;Machine Learning;R;SQL;Spark,yes
+DEMO-0316,2025-Q2,san_francisco,Master's (completed),Computer Science,statistician,CI/CD;Communication;Data Visualization;Excel;NLP;Problem Solving;Project Management;Python;R;Statistics,yes
+DEMO-0317,2025-Q4,dallas,Bachelor's (in progress),Data Science / Analytics,data_analyst,Business Acumen;Communication;Data Modeling;Data Visualization;Git;Power BI;Statistics;System Design;Tableau;Testing / QA Automation,yes
+DEMO-0318,2026-Q1,new_york,Master's (in progress),Mathematics / Statistics,data_analyst,A/B Testing;Business Acumen;Communication;Data Modeling;Excel;Financial Modeling;Power BI;Problem Solving;Python;Risk & Compliance;SQL;Stakeholder Management;Statistics;Tableau,yes
+DEMO-0319,2025-Q4,chicago,Bachelor's (completed),Computer Science,market_research_analyst,A/B Testing;CI/CD;Communication;Machine Learning;Power BI;R;SQL;Statistics;Tableau,yes
+DEMO-0320,2025-Q4,chicago,Master's (in progress),Information Systems,data_analyst,A/B Testing;Agile / Scrum;Business Acumen;Communication;Data Visualization;Excel;Power BI;Problem Solving;R;SQL;Statistics,yes
+DEMO-0321,2026-Q2,atlanta,Master's (in progress),Information Systems,devops_engineer,AWS;Agile / Scrum;CI/CD;Communication;Docker;Git;JavaScript;Kafka;Kubernetes;Problem Solving;Python;R;System Design;Terraform,yes
+DEMO-0322,2026-Q2,boston,Bachelor's (completed),Engineering,data_engineer,AWS;Airflow;CI/CD;Data Modeling;Docker;ETL / Data Pipelines;GCP;Git;Java;Kafka;Linux;SQL;Spark,yes
+DEMO-0323,2026-Q2,chicago,Master's (in progress),Computer Science,software_engineer,AWS;Agile / Scrum;CI/CD;Communication;Cybersecurity;Docker;Java;Linux;Problem Solving;Python;REST APIs;SQL;System Design;Testing / QA Automation,yes
+DEMO-0324,2026-Q1,new_york,Master's (in progress),Data Science / Analytics,data_scientist,A/B Testing;Airflow;CI/CD;Communication;Data Visualization;Deep Learning;GCP;Java;Machine Learning;Python;R;SQL;Statistics,yes
+DEMO-0325,2025-Q3,washington_dc,Doctorate,Information Systems,data_scientist,A/B Testing;Data Visualization;Deep Learning;Excel;Git;Problem Solving;R;Statistics,yes
+DEMO-0326,2025-Q1,dallas,Bachelor's (completed),Data Science / Analytics,qa_engineer,Agile / Scrum;CI/CD;Communication;Data Modeling;Docker;Git;Problem Solving;R,yes
+DEMO-0327,2025-Q2,chicago,Master's (completed),Information Systems,data_analyst,A/B Testing;AWS;Business Acumen;Communication;Data Modeling;Data Visualization;Excel;JavaScript;Python;SQL;Stakeholder Management;Tableau;Terraform,yes
+DEMO-0328,2025-Q1,austin,Master's (completed),Other,data_analyst,Business Acumen;Communication;Data Visualization;Excel;Kafka;Linux;R;SQL;Stakeholder Management;Statistics;Tableau,yes
+DEMO-0329,2025-Q2,chicago,Master's (completed),Data Science / Analytics,data_scientist,A/B Testing;AWS;Communication;Docker;Python;SQL;Spark;Statistics;Testing / QA Automation,yes
+DEMO-0330,2026-Q2,chicago,Master's (in progress),Engineering,ml_engineer,AWS;Deep Learning;Git;Kubernetes;MLOps;Machine Learning;NoSQL Databases;Python;REST APIs;SQL;Spark;Statistics;System Design;Tableau,yes
+DEMO-0331,2026-Q1,chicago,Master's (completed),Business / Finance,web_developer,A/B Testing;Communication;Deep Learning;Git;HTML/CSS;MLOps;Problem Solving;REST APIs;React;Testing / QA Automation,yes
+DEMO-0332,2026-Q2,boston,Master's (completed),Engineering,data_scientist,A/B Testing;AWS;Airflow;Communication;Data Visualization;Deep Learning;Excel;JavaScript;Problem Solving;Python;R;SQL,yes
+DEMO-0333,2026-Q1,chicago,Master's (completed),Data Science / Analytics,devops_engineer,Azure;CI/CD;Cybersecurity;Docker;Git;Kafka;Kubernetes;Linux;Networking;Problem Solving;REST APIs;Terraform,yes
+DEMO-0334,2026-Q1,seattle,Bachelor's (completed),Data Science / Analytics,software_engineer,Agile / Scrum;CI/CD;Communication;JavaScript;Linux;Python;REST APIs;React;System Design;Testing / QA Automation,yes
+DEMO-0335,2026-Q1,new_york,Master's (completed),Business / Finance,software_engineer,AWS;Agile / Scrum;Airflow;CI/CD;Docker;Excel;Git;Java;JavaScript;Linux;Python;Testing / QA Automation,yes
+DEMO-0336,2025-Q4,seattle,Master's (in progress),Data Science / Analytics,data_analyst,A/B Testing;Agile / Scrum;Business Acumen;Communication;Data Modeling;ETL / Data Pipelines;Problem Solving;Python;SQL,yes
+DEMO-0337,2025-Q2,chicago,Master's (completed),Engineering,software_engineer,Agile / Scrum;C++;CI/CD;Deep Learning;Docker;Git;JavaScript;Python;REST APIs;Testing / QA Automation,yes
+DEMO-0338,2025-Q3,atlanta,Bachelor's (in progress),Computer Science,ml_engineer,Azure;CI/CD;Cybersecurity;Docker;Git;Machine Learning;Python;SQL;System Design;Testing / QA Automation,yes
+DEMO-0339,2025-Q4,new_york,Master's (in progress),Information Systems,data_engineer,AWS;Azure;Data Modeling;Docker;ETL / Data Pipelines;Git;Kafka;Linux;Python;SQL;Spark;System Design,yes
+DEMO-0340,2025-Q4,dallas,Bachelor's (in progress),Computer Science,software_engineer,AWS;Agile / Scrum;CI/CD;Communication;Data Modeling;Docker;Financial Modeling;Git;Java;Kubernetes;Problem Solving;REST APIs;React;System Design;Testing / QA Automation,yes
+DEMO-0341,2025-Q4,atlanta,Bachelor's (in progress),Computer Science,data_scientist,A/B Testing;AWS;Data Visualization;Deep Learning;GCP;Machine Learning;NLP;Problem Solving;Python;R;SQL;Spark;Statistics,yes
+DEMO-0342,2025-Q1,chicago,Master's (in progress),Other,data_analyst,Data Modeling;Data Visualization;Excel;MLOps;R;Risk & Compliance;SQL;Statistics;Tableau,yes
+DEMO-0343,2026-Q2,chicago,Master's (in progress),Computer Science,database_admin,AWS;Communication;Docker;Linux;Networking;Problem Solving;REST APIs;Risk & Compliance;SQL,yes
+DEMO-0344,2026-Q2,atlanta,Master's (in progress),Data Science / Analytics,data_analyst,Business Acumen;Communication;Data Visualization;Problem Solving;Python;R;React;SQL;Stakeholder Management;Tableau,yes
+DEMO-0345,2025-Q3,chicago,Master's (completed),Data Science / Analytics,financial_analyst,Business Acumen;Communication;Data Visualization;Excel;Financial Modeling;Power BI;Python,yes
+DEMO-0346,2025-Q2,austin,Master's (in progress),Computer Science,data_scientist,AWS;Communication;Data Visualization;Deep Learning;Git;HTML/CSS;Machine Learning;NLP;Python;R;SQL;Statistics,yes
+DEMO-0347,2025-Q4,seattle,Master's (completed),Data Science / Analytics,data_scientist,A/B Testing;AWS;Deep Learning;Git;Machine Learning;Problem Solving;Python;R;SQL;Statistics,yes
+DEMO-0348,2026-Q2,atlanta,Bachelor's (in progress),Business / Finance,qa_engineer,Agile / Scrum;CI/CD;Communication;Excel;Git;Problem Solving;REST APIs;Testing / QA Automation,yes
+DEMO-0349,2025-Q4,chicago,Bachelor's (in progress),Computer Science,data_engineer,AWS;Airflow;CI/CD;Communication;Data Modeling;Deep Learning;Git;JavaScript;Linux;MLOps;SQL;Terraform,yes
+DEMO-0350,2026-Q2,san_francisco,Bachelor's (in progress),Data Science / Analytics,data_scientist,A/B Testing;Azure;Communication;Data Modeling;Data Visualization;Deep Learning;Git;Machine Learning;NLP;Python;SQL;Spark;Statistics;System Design,yes
+DEMO-0351,2025-Q2,chicago,Bachelor's (in progress),Computer Science,data_analyst,A/B Testing;Business Acumen;Excel;Kubernetes;Problem Solving;SQL;Stakeholder Management,yes
+DEMO-0352,2025-Q1,washington_dc,Bachelor's (in progress),Computer Science,qa_engineer,CI/CD;MLOps;Problem Solving;Python;R;REST APIs,yes
+DEMO-0353,2025-Q3,dallas,Doctorate,Engineering,data_analyst,A/B Testing;Business Acumen;C++;Communication;Data Modeling;Data Visualization;Excel;Financial Modeling;Problem Solving;Python;SQL;Statistics,yes
+DEMO-0354,2026-Q1,san_francisco,Bachelor's (in progress),Computer Science,market_research_analyst,A/B Testing;Communication;Excel;Problem Solving;Project Management;R;Risk & Compliance;SQL,yes
+DEMO-0355,2026-Q1,seattle,Master's (completed),Data Science / Analytics,data_analyst,Communication;Data Visualization;Excel;GCP;Java;Power BI;Problem Solving;Python;SQL;Statistics;Tableau,yes
+DEMO-0356,2026-Q2,chicago,Doctorate,Mathematics / Statistics,data_engineer,Azure;Communication;Data Modeling;Deep Learning;Kafka;Linux;Python;SQL;Spark;Terraform,yes
+DEMO-0357,2025-Q2,chicago,Master's (in progress),Data Science / Analytics,data_analyst,A/B Testing;Business Acumen;Communication;Data Modeling;Data Visualization;Kubernetes;Linux;MLOps;Power BI;Python;SQL;Statistics;Tableau,yes
+DEMO-0358,2026-Q1,chicago,Master's (in progress),Computer Science,cloud_engineer,Azure;CI/CD;Cybersecurity;GCP;Git;Linux;Power BI;REST APIs;SQL;System Design,yes
+DEMO-0359,2026-Q2,washington_dc,Master's (completed),Engineering,data_analyst,A/B Testing;Business Acumen;Communication;Data Modeling;Data Visualization;Deep Learning;Excel;NLP;Python;Statistics;Tableau,yes
+DEMO-0360,2025-Q3,boston,Master's (in progress),Mathematics / Statistics,data_engineer,A/B Testing;Airflow;Azure;CI/CD;Data Modeling;ETL / Data Pipelines;Java;Kafka;Linux;NoSQL Databases;Python;SQL;Spark;Terraform,yes
+DEMO-0361,2025-Q3,washington_dc,Master's (in progress),Data Science / Analytics,ml_engineer,AWS;CI/CD;Cybersecurity;Deep Learning;Docker;GCP;Git;MLOps;Machine Learning;REST APIs;Spark;System Design,yes
+DEMO-0362,2026-Q2,chicago,Bachelor's (completed),Engineering,qa_engineer,CI/CD;Communication;Data Visualization;Deep Learning;Docker;Problem Solving;Python;REST APIs;React;SQL;Testing / QA Automation,yes
+DEMO-0363,2025-Q3,chicago,Master's (in progress),Computer Science,security_analyst,A/B Testing;AWS;Azure;Communication;Cybersecurity;Linux;Networking;Python;Risk & Compliance,yes
+DEMO-0364,2025-Q4,austin,Master's (completed),Engineering,project_manager,AWS;Agile / Scrum;Communication;Java;JavaScript;Project Management;Risk & Compliance;Stakeholder Management;Tableau,yes
+DEMO-0365,2025-Q3,chicago,Master's (in progress),Mathematics / Statistics,data_analyst,A/B Testing;Communication;Data Modeling;Data Visualization;Deep Learning;Excel;Machine Learning;Project Management;Python;SQL;System Design,yes
+DEMO-0366,2025-Q3,boston,Master's (in progress),Computer Science,data_engineer,Azure;CI/CD;Data Modeling;Git;Kafka;Python;React;Spark,yes
+DEMO-0367,2025-Q4,atlanta,Bachelor's (completed),Data Science / Analytics,data_analyst,Business Acumen;Communication;Data Modeling;Power BI;Problem Solving;Python;R,yes
+DEMO-0368,2025-Q3,seattle,Master's (in progress),Business / Finance,cloud_engineer,AWS;GCP;Git;Kubernetes;Linux;Python;Statistics;Testing / QA Automation,yes
+DEMO-0369,2026-Q2,washington_dc,Bachelor's (in progress),Engineering,data_scientist,Communication;Git;Java;Kubernetes;Machine Learning;NLP;Problem Solving;Python;Statistics;Tableau,yes
+DEMO-0370,2025-Q4,washington_dc,Master's (in progress),Data Science / Analytics,data_analyst,Business Acumen;Data Modeling;Data Visualization;GCP;Python;R;SQL;Statistics;Tableau,yes
+DEMO-0371,2026-Q2,chicago,Master's (in progress),Data Science / Analytics,software_engineer,AWS;Docker;Git;Linux;Problem Solving;Python;REST APIs;SQL;System Design,yes
+DEMO-0372,2025-Q3,san_francisco,Bachelor's (in progress),Engineering,software_engineer,AWS;CI/CD;Communication;Cybersecurity;Deep Learning;Docker;Git;Java;REST APIs;System Design;Testing / QA Automation,yes
+DEMO-0373,2025-Q4,chicago,Master's (in progress),Computer Science,data_engineer,Airflow;Azure;Docker;Java;MLOps;Problem Solving;Python;Spark,yes
+DEMO-0374,2026-Q1,chicago,Master's (in progress),Information Systems,devops_engineer,Azure;C++;Docker;GCP;Kafka;Kubernetes;Linux;Networking;Problem Solving;Python;Risk & Compliance;Terraform,yes
+DEMO-0375,2025-Q4,austin,Master's (in progress),Computer Science,ml_engineer,CI/CD;Data Visualization;Docker;Git;Linux;Machine Learning;Python,yes
+DEMO-0376,2025-Q4,atlanta,Bachelor's (completed),Data Science / Analytics,data_scientist,AWS;Communication;Data Visualization;Machine Learning;Problem Solving;Python;R;SQL;Spark;Statistics,yes
+DEMO-0377,2025-Q2,seattle,Bachelor's (in progress),Data Science / Analytics,software_engineer,AWS;Azure;C++;Communication;Docker;Financial Modeling;Git;JavaScript;Linux;REST APIs;SQL;Testing / QA Automation,yes
+DEMO-0378,2026-Q2,chicago,Bachelor's (in progress),Information Systems,data_engineer,Azure;Communication;Data Modeling;ETL / Data Pipelines;GCP;Git;Kafka;NoSQL Databases;Python;Spark;Terraform,yes
+DEMO-0379,2025-Q1,chicago,Bachelor's (in progress),Data Science / Analytics,data_engineer,Airflow;Azure;Communication;Data Modeling;Docker;ETL / Data Pipelines;GCP;Git;Kafka;Python;REST APIs;SQL,yes
+DEMO-0380,2026-Q1,seattle,Master's (in progress),Computer Science,data_analyst,Communication;Data Modeling;Excel;Power BI;Python;Stakeholder Management;Tableau;Testing / QA Automation,yes
+DEMO-0381,2026-Q2,san_francisco,Master's (completed),Computer Science,qa_engineer,Azure;Communication;Docker;Java;Python;REST APIs;SQL;Testing / QA Automation,yes
+DEMO-0382,2025-Q1,new_york,Master's (in progress),Data Science / Analytics,cloud_engineer,A/B Testing;AWS;CI/CD;Docker;Git;Networking;Terraform;Testing / QA Automation,yes
+DEMO-0383,2026-Q2,atlanta,Bachelor's (completed),Data Science / Analytics,data_engineer,Airflow;CI/CD;Communication;Data Modeling;Git;Java;JavaScript;Kafka;Linux;NoSQL Databases;Spark,yes
+DEMO-0384,2026-Q1,chicago,Bachelor's (completed),Computer Science,data_analyst,A/B Testing;Data Visualization;Excel;NoSQL Databases;Power BI;SQL;Spark;Stakeholder Management;Statistics;Tableau,yes
+DEMO-0385,2026-Q2,chicago,Master's (in progress),Business / Finance,data_analyst,A/B Testing;Business Acumen;Communication;Data Visualization;Excel;GCP;Power BI;Python;R;SQL;Stakeholder Management;Statistics;Tableau,yes
+DEMO-0386,2025-Q2,chicago,Master's (in progress),Business / Finance,data_scientist,A/B Testing;AWS;Communication;Data Visualization;Deep Learning;Problem Solving;Python;REST APIs;SQL;Spark;Statistics;Tableau;Testing / QA Automation,yes
+DEMO-0387,2025-Q3,new_york,Bachelor's (completed),Computer Science,cloud_engineer,CI/CD;Docker;Kubernetes;Linux;NLP;Python;System Design,yes
+DEMO-0388,2025-Q4,chicago,Bachelor's (completed),Computer Science,ml_engineer,CI/CD;Communication;Deep Learning;Docker;GCP;Kubernetes;MLOps;Machine Learning;NLP;SQL,yes
+DEMO-0389,2025-Q2,chicago,Bachelor's (in progress),Engineering,data_analyst,A/B Testing;Airflow;Business Acumen;Communication;Data Visualization;Excel;Java;Power BI;Problem Solving;Python;SQL;Stakeholder Management,yes
+DEMO-0390,2025-Q2,chicago,Bachelor's (in progress),Information Systems,software_engineer,AWS;CI/CD;Communication;Docker;Java;JavaScript;Linux;Problem Solving;REST APIs;Risk & Compliance;System Design;Testing / QA Automation,yes
+DEMO-0391,2025-Q4,atlanta,Master's (in progress),Engineering,data_analyst,Business Acumen;Communication;Data Modeling;Financial Modeling;Kafka;Problem Solving;R;REST APIs;Statistics;Tableau;Testing / QA Automation,yes
+DEMO-0392,2026-Q2,new_york,Master's (in progress),Information Systems,data_analyst,Business Acumen;Communication;Data Modeling;Data Visualization;Power BI;Python;R;SQL;Statistics,yes
+DEMO-0393,2025-Q3,chicago,Master's (completed),Information Systems,ml_engineer,Communication;Deep Learning;Docker;GCP;Git;MLOps;Machine Learning;NLP;Python;REST APIs;Spark;Statistics;System Design,yes
+DEMO-0394,2025-Q2,austin,Master's (completed),Computer Science,web_developer,AWS;Communication;Git;HTML/CSS;JavaScript;Problem Solving;React;Stakeholder Management,yes
+DEMO-0395,2026-Q2,boston,Master's (in progress),Computer Science,data_analyst,Data Modeling;Docker;Excel;Python;Risk & Compliance;Stakeholder Management;Tableau,yes
+DEMO-0396,2025-Q2,chicago,Master's (in progress),Data Science / Analytics,cloud_engineer,AWS;Azure;CI/CD;Cybersecurity;Deep Learning;Git;Kubernetes;Linux;Networking;SQL;System Design;Tableau,yes
+DEMO-0397,2026-Q1,dallas,Master's (completed),Business / Finance,software_engineer,AWS;C++;CI/CD;Git;JavaScript;Problem Solving;Python;REST APIs;System Design;Testing / QA Automation,yes
+DEMO-0398,2025-Q1,chicago,Master's (in progress),Data Science / Analytics,data_analyst,A/B Testing;AWS;Business Acumen;Communication;Cybersecurity;ETL / Data Pipelines;Power BI;Problem Solving;Python;R;Statistics;Tableau,yes
+DEMO-0399,2025-Q3,chicago,Master's (in progress),Data Science / Analytics,systems_analyst,Agile / Scrum;Business Acumen;Data Modeling;Excel;REST APIs;SQL;Stakeholder Management;System Design,yes
+DEMO-0400,2025-Q2,san_francisco,Master's (completed),Data Science / Analytics,software_engineer,C++;Communication;Linux;Networking;Python;REST APIs;System Design;Testing / QA Automation,yes
+DEMO-0401,2025-Q1,dallas,Master's (in progress),Information Systems,ml_engineer,AWS;Business Acumen;Deep Learning;Docker;ETL / Data Pipelines;Git;Kubernetes;Linux;Machine Learning;R;REST APIs;Spark;System Design,yes
+DEMO-0402,2026-Q1,washington_dc,Master's (completed),Computer Science,cloud_engineer,AWS;Cybersecurity;Docker;GCP;Linux;Networking;NoSQL Databases;Python;REST APIs;Terraform,yes
+DEMO-0403,2026-Q2,chicago,Master's (in progress),Business / Finance,data_analyst,Communication;Data Modeling;Data Visualization;Excel;Power BI;Problem Solving;R;SQL;Statistics,yes
+DEMO-0404,2025-Q2,austin,Master's (in progress),Business / Finance,data_analyst,Business Acumen;Communication;MLOps;Problem Solving;Stakeholder Management;Statistics;Tableau,yes
+DEMO-0405,2025-Q4,austin,Master's (completed),Data Science / Analytics,web_developer,AWS;Agile / Scrum;Communication;Git;JavaScript;REST APIs;React;SQL,yes
+DEMO-0406,2025-Q3,chicago,Doctorate,Information Systems,data_engineer,Airflow;Data Modeling;Docker;Excel;Kafka;Linux;NoSQL Databases;Python;Spark;Terraform,yes
+DEMO-0407,2025-Q4,boston,Bachelor's (in progress),Information Systems,devops_engineer,AWS;CI/CD;Communication;Docker;Git;Linux;Problem Solving;Project Management;Terraform,yes
+DEMO-0408,2025-Q3,chicago,Master's (in progress),Mathematics / Statistics,ml_engineer,AWS;Communication;Deep Learning;JavaScript;MLOps;Machine Learning;Networking;System Design,yes
+DEMO-0409,2025-Q1,dallas,Bachelor's (completed),Computer Science,data_engineer,AWS;Azure;Data Modeling;GCP;Java;NoSQL Databases;Python;Spark,yes
+DEMO-0410,2026-Q1,chicago,Master's (in progress),Business / Finance,software_engineer,Agile / Scrum;Business Acumen;C++;CI/CD;Kubernetes;Linux;Python;SQL;Tableau;Testing / QA Automation,yes
+DEMO-0411,2026-Q2,chicago,Master's (in progress),Mathematics / Statistics,data_analyst,A/B Testing;Business Acumen;C++;Communication;Data Modeling;Excel;NoSQL Databases;Power BI;Python;R;Statistics;Tableau,yes
+DEMO-0412,2026-Q2,chicago,Bachelor's (completed),Computer Science,devops_engineer,AWS;Airflow;Azure;CI/CD;Communication;Docker;Git;Kafka;Kubernetes;NLP;Networking;Power BI;Problem Solving;Python,yes
+DEMO-0413,2026-Q1,new_york,Master's (in progress),Business / Finance,software_engineer,C++;CI/CD;Communication;Docker;Git;Java;JavaScript;Kafka;Linux;Machine Learning;Problem Solving;Python;REST APIs;Testing / QA Automation,yes
+DEMO-0414,2026-Q2,chicago,Doctorate,Data Science / Analytics,software_engineer,Agile / Scrum;C++;Java;Problem Solving;Python;System Design;Testing / QA Automation,yes
+DEMO-0415,2025-Q4,austin,Bachelor's (in progress),Business / Finance,data_analyst,A/B Testing;Business Acumen;Communication;Data Visualization;Kubernetes;Power BI;Problem Solving;R;SQL;Stakeholder Management;Tableau,yes
+DEMO-0416,2025-Q4,chicago,Master's (completed),Engineering,database_admin,Communication;Linux;NLP;Networking;NoSQL Databases;Problem Solving;R;Risk & Compliance;SQL,yes
+DEMO-0417,2025-Q4,chicago,Master's (in progress),Computer Science,data_scientist,A/B Testing;Deep Learning;NLP;Python;R;System Design,yes
+DEMO-0418,2025-Q4,chicago,Bachelor's (in progress),Business / Finance,software_engineer,A/B Testing;AWS;Agile / Scrum;CI/CD;Docker;Excel;Git;Java;Machine Learning;Problem Solving;SQL;System Design;Tableau,yes
+DEMO-0419,2026-Q2,chicago,Master's (in progress),Computer Science,software_engineer,C++;Communication;Data Modeling;Docker;Git;Java;JavaScript;Linux;NLP;Problem Solving;Python;REST APIs;SQL;System Design;Testing / QA Automation,yes
+DEMO-0420,2025-Q2,seattle,Bachelor's (completed),Computer Science,ml_engineer,AWS;CI/CD;Data Visualization;Docker;Excel;Git;Kafka;Kubernetes;Linux;Python;SQL;Stakeholder Management,yes
+DEMO-0421,2026-Q2,new_york,Bachelor's (completed),Business / Finance,cloud_engineer,Azure;Business Acumen;Data Visualization;Docker;Git;Kubernetes;Linux;Networking;Python;System Design;Terraform,yes
+DEMO-0422,2025-Q3,dallas,Bachelor's (in progress),Engineering,software_engineer,Agile / Scrum;CI/CD;Docker;Git;Power BI;Problem Solving;Python;REST APIs;SQL;Spark;System Design,yes
+DEMO-0423,2026-Q2,chicago,Master's (in progress),Data Science / Analytics,data_analyst,Business Acumen;Communication;Data Visualization;Excel;Power BI;Python;REST APIs;SQL;Stakeholder Management;Statistics;Tableau;Testing / QA Automation,yes
+DEMO-0424,2025-Q4,chicago,Bachelor's (completed),Data Science / Analytics,software_engineer,C++;Docker;Git;JavaScript;Linux;Problem Solving;REST APIs;SQL;System Design,yes
+DEMO-0425,2026-Q2,chicago,Bachelor's (completed),Computer Science,qa_engineer,Agile / Scrum;Azure;CI/CD;Data Visualization;Excel;Git;Kafka;REST APIs;SQL;Testing / QA Automation,yes
+DEMO-0426,2025-Q3,atlanta,Master's (in progress),Engineering,data_analyst,Business Acumen;Communication;Data Visualization;Power BI;Problem Solving;Python;React;SQL;Statistics;Tableau,yes
+DEMO-0427,2025-Q3,atlanta,Master's (completed),Computer Science,data_scientist,A/B Testing;Agile / Scrum;Communication;Data Visualization;Git;MLOps;Machine Learning;Problem Solving;Python;R;Spark,yes
+DEMO-0428,2026-Q1,washington_dc,Bachelor's (in progress),Computer Science,data_analyst,Business Acumen;Communication;Data Visualization;Kubernetes;Power BI;Problem Solving;Python;SQL;Stakeholder Management;Tableau,yes
+DEMO-0429,2026-Q2,chicago,Bachelor's (completed),Information Systems,data_analyst,Business Acumen;Communication;Data Modeling;Data Visualization;HTML/CSS;Problem Solving;Stakeholder Management;Statistics,yes
+DEMO-0430,2026-Q2,chicago,Master's (completed),Engineering,data_scientist,Deep Learning;ETL / Data Pipelines;Git;Java;Machine Learning;Power BI;Python;R;SQL;Spark;Statistics,yes
+DEMO-0431,2025-Q3,seattle,Master's (completed),Computer Science,web_developer,AWS;Agile / Scrum;Communication;Git;HTML/CSS;JavaScript;NoSQL Databases;Problem Solving;SQL;Testing / QA Automation,yes
+DEMO-0432,2025-Q2,atlanta,Bachelor's (completed),Computer Science,security_analyst,AWS;C++;CI/CD;Communication;Cybersecurity;Excel;Linux;Networking;Problem Solving;Python;Risk & Compliance;Stakeholder Management,yes
+DEMO-0433,2026-Q1,chicago,Bachelor's (completed),Computer Science,software_engineer,AWS;Agile / Scrum;C++;Git;Java;JavaScript;Linux;NLP;Python;REST APIs;SQL;System Design;Tableau;Testing / QA Automation,yes
+DEMO-0434,2025-Q2,chicago,Master's (in progress),Engineering,security_analyst,AWS;Azure;Cybersecurity;Data Modeling;Docker;Kafka;Networking;Problem Solving;Python;Risk & Compliance;Stakeholder Management,yes
+DEMO-0435,2025-Q1,chicago,Master's (in progress),Computer Science,software_engineer,AWS;Agile / Scrum;CI/CD;Communication;Java;JavaScript;Linux;Problem Solving;REST APIs;SQL;System Design;Testing / QA Automation,yes
+DEMO-0436,2026-Q2,chicago,Master's (in progress),Engineering,software_engineer,A/B Testing;AWS;C++;CI/CD;Communication;Docker;Git;HTML/CSS;JavaScript;Kafka;Problem Solving;Python;System Design;Testing / QA Automation,yes
+DEMO-0437,2026-Q2,atlanta,Bachelor's (completed),Computer Science,web_developer,Agile / Scrum;Business Acumen;Communication;Deep Learning;Docker;Git;HTML/CSS;JavaScript;Kubernetes;Problem Solving;REST APIs;React;SQL,yes
+DEMO-0438,2025-Q3,new_york,Master's (in progress),Data Science / Analytics,data_engineer,A/B Testing;AWS;Airflow;CI/CD;Data Modeling;Git;NoSQL Databases;SQL;Terraform,yes
+DEMO-0439,2025-Q2,chicago,Bachelor's (completed),Computer Science,financial_analyst,Airflow;Business Acumen;Communication;Data Visualization;Excel;Financial Modeling;Power BI;Python;Risk & Compliance;SQL;Stakeholder Management,yes
+DEMO-0440,2026-Q2,dallas,Master's (in progress),Data Science / Analytics,data_engineer,AWS;Airflow;Azure;Communication;Data Visualization;Docker;ETL / Data Pipelines;HTML/CSS;Java;Kafka;NoSQL Databases;Python;SQL;Spark;Terraform,yes
+DEMO-0441,2025-Q4,chicago,Master's (completed),Computer Science,data_engineer,AWS;Azure;Communication;Data Modeling;ETL / Data Pipelines;Git;Kafka;Linux;Machine Learning;NoSQL Databases;Python;REST APIs;SQL;Spark,yes
+DEMO-0442,2025-Q2,chicago,Master's (in progress),Business / Finance,security_analyst,Airflow;Azure;Business Acumen;GCP;Networking;Problem Solving;Python;Risk & Compliance;Statistics,yes
+DEMO-0443,2025-Q4,chicago,Master's (in progress),Computer Science,data_engineer,AWS;Airflow;Azure;CI/CD;Data Modeling;Docker;ETL / Data Pipelines;Linux;Python;Spark,yes
+DEMO-0444,2025-Q1,chicago,Master's (in progress),Computer Science,data_analyst,AWS;Communication;Cybersecurity;Data Visualization;Problem Solving;SQL;Stakeholder Management;Statistics;Tableau,yes
+DEMO-0445,2025-Q4,atlanta,Master's (in progress),Computer Science,data_engineer,AWS;Agile / Scrum;Airflow;Communication;Data Modeling;Docker;ETL / Data Pipelines;Git;Java;Kafka;Linux;NoSQL Databases;Python;SQL;Spark,yes
+DEMO-0446,2025-Q2,chicago,Master's (in progress),Data Science / Analytics,software_engineer,Communication;Docker;JavaScript;Linux;Power BI;Problem Solving;Python;REST APIs;SQL;System Design,yes
+DEMO-0447,2026-Q1,san_francisco,Master's (in progress),Mathematics / Statistics,data_scientist,A/B Testing;AWS;C++;Communication;Data Visualization;Machine Learning;NLP;Python;R;SQL;Spark;Statistics,yes
+DEMO-0448,2026-Q2,chicago,Bachelor's (in progress),Business / Finance,data_analyst,A/B Testing;Business Acumen;Communication;Data Modeling;Data Visualization;ETL / Data Pipelines;Excel;Git;Networking;Power BI;Problem Solving;Python;SQL;Statistics;Tableau,yes
+DEMO-0449,2026-Q2,new_york,Bachelor's (completed),Business / Finance,data_analyst,A/B Testing;Business Acumen;Communication;Data Visualization;Deep Learning;Docker;Excel;Power BI;Problem Solving;Python;React;SQL,yes
+DEMO-0450,2026-Q2,chicago,Master's (completed),Computer Science,qa_engineer,Agile / Scrum;CI/CD;Communication;Financial Modeling;Git;JavaScript;Linux;Problem Solving;Python;REST APIs;Testing / QA Automation,yes
+DEMO-0451,2025-Q3,new_york,Master's (completed),Information Systems,ml_engineer,AWS;Airflow;Deep Learning;Excel;GCP;Linux;MLOps;Machine Learning;NLP;Python;Statistics;System Design,yes
+DEMO-0452,2026-Q1,new_york,Bachelor's (completed),Business / Finance,web_developer,Agile / Scrum;JavaScript;Kafka;NoSQL Databases;REST APIs;React;Statistics;Testing / QA Automation,yes
+DEMO-0453,2026-Q2,chicago,Master's (in progress),Computer Science,data_analyst,Business Acumen;CI/CD;Communication;Data Modeling;Kafka;Kubernetes;Python;SQL;Spark;Stakeholder Management,yes
+DEMO-0454,2025-Q2,chicago,Master's (completed),Computer Science,ml_engineer,Azure;CI/CD;Docker;GCP;Git;Linux;NLP;Power BI;Python;Spark;Statistics;System Design,yes
+DEMO-0455,2026-Q1,new_york,Bachelor's (in progress),Mathematics / Statistics,qa_engineer,Agile / Scrum;CI/CD;Docker;Git;Java;Machine Learning;Problem Solving;SQL;Spark;Testing / QA Automation,yes
+DEMO-0456,2026-Q2,austin,Master's (in progress),Computer Science,software_engineer,AWS;Agile / Scrum;CI/CD;GCP;Git;Java;Problem Solving;REST APIs;System Design;Testing / QA Automation,yes
+DEMO-0457,2025-Q3,chicago,Master's (in progress),Engineering,software_engineer,AWS;Agile / Scrum;Airflow;C++;CI/CD;Communication;Git;NLP;Problem Solving;Python;REST APIs;System Design,yes
+DEMO-0458,2026-Q2,chicago,Master's (in progress),Computer Science,systems_analyst,Agile / Scrum;Business Acumen;Communication;Excel;Problem Solving;R;SQL;Stakeholder Management;System Design,yes
+DEMO-0459,2025-Q3,dallas,Bachelor's (in progress),Business / Finance,data_scientist,Airflow;Data Visualization;Deep Learning;Git;Machine Learning;NLP;Python;R;SQL;Spark;Statistics,yes
+DEMO-0460,2025-Q4,san_francisco,Bachelor's (in progress),Engineering,financial_analyst,Agile / Scrum;Communication;Data Visualization;Excel;Financial Modeling;Java;Python;REST APIs;Risk & Compliance;SQL;Statistics,yes
+DEMO-0461,2025-Q3,seattle,Bachelor's (completed),Mathematics / Statistics,data_scientist,A/B Testing;AWS;Communication;Cybersecurity;Deep Learning;Git;Java;Machine Learning;Problem Solving;Python;Spark,yes
+DEMO-0462,2026-Q2,chicago,Master's (in progress),Data Science / Analytics,data_scientist,A/B Testing;Communication;Data Visualization;Deep Learning;Linux;Machine Learning;Problem Solving;R;Risk & Compliance;SQL;Statistics,yes
+DEMO-0463,2026-Q2,atlanta,Bachelor's (completed),Business / Finance,data_analyst,A/B Testing;Communication;Data Visualization;Deep Learning;Git;Power BI;Problem Solving;React;SQL;Stakeholder Management;Statistics;Tableau,yes
+DEMO-0464,2026-Q2,boston,Master's (in progress),Information Systems,data_scientist,A/B Testing;AWS;Communication;Deep Learning;Excel;Git;Machine Learning;Problem Solving;Python;R;SQL;Spark,yes
+DEMO-0465,2025-Q2,chicago,Bachelor's (in progress),Computer Science,data_scientist,Agile / Scrum;C++;Communication;Git;Machine Learning;NLP;Python;SQL;Spark;Statistics,yes
+DEMO-0466,2025-Q4,san_francisco,Master's (in progress),Information Systems,ml_engineer,AWS;CI/CD;Communication;Deep Learning;Docker;Git;MLOps;Machine Learning;Power BI;Python;SQL;Statistics;Terraform,yes
+DEMO-0467,2026-Q2,washington_dc,Bachelor's (in progress),Mathematics / Statistics,software_engineer,AWS;Agile / Scrum;C++;CI/CD;Communication;Data Visualization;Docker;Git;Java;JavaScript;Linux;Problem Solving;REST APIs;System Design,yes
+DEMO-0468,2026-Q2,seattle,Bachelor's (in progress),Computer Science,cloud_engineer,AWS;Azure;CI/CD;Docker;ETL / Data Pipelines;GCP;Kubernetes;Networking;Python;System Design;Terraform,yes
+DEMO-0469,2026-Q2,atlanta,Master's (in progress),Computer Science,cloud_engineer,AWS;Azure;CI/CD;Docker;GCP;Git;Networking;Testing / QA Automation,yes
+DEMO-0470,2025-Q2,chicago,Master's (in progress),Data Science / Analytics,data_scientist,A/B Testing;Communication;Data Visualization;Git;NLP;Problem Solving;Python;R,yes
+DEMO-0471,2025-Q2,chicago,Master's (in progress),Computer Science,ml_engineer,A/B Testing;Docker;Kubernetes;Linux;MLOps;Machine Learning;NLP;SQL;System Design,yes
+DEMO-0472,2025-Q2,chicago,Master's (in progress),Computer Science,software_engineer,AWS;C++;Communication;Git;JavaScript;Linux;Problem Solving;REST APIs;SQL;Testing / QA Automation,yes
+DEMO-0473,2025-Q4,san_francisco,Master's (in progress),Business / Finance,data_analyst,A/B Testing;Airflow;Business Acumen;Communication;Data Visualization;Excel;Financial Modeling;Java;R;REST APIs;Stakeholder Management;Statistics,yes
+DEMO-0474,2025-Q4,boston,Bachelor's (in progress),Engineering,data_scientist,A/B Testing;AWS;Communication;Data Visualization;Machine Learning;Python;Spark;Statistics,yes
+DEMO-0475,2026-Q2,austin,Master's (in progress),Data Science / Analytics,devops_engineer,AWS;Agile / Scrum;Azure;CI/CD;Communication;Cybersecurity;Docker;Git;Kubernetes;Linux;Terraform,yes
+DEMO-0476,2025-Q4,atlanta,Bachelor's (in progress),Information Systems,devops_engineer,A/B Testing;AWS;Azure;CI/CD;Docker;Git;Kafka;Kubernetes;Linux;Python;R;SQL;Terraform,yes
+DEMO-0477,2025-Q3,atlanta,Master's (in progress),Computer Science,web_developer,AWS;Communication;GCP;Git;Power BI;Problem Solving;REST APIs;React;SQL,yes
+DEMO-0478,2025-Q1,chicago,Master's (completed),Data Science / Analytics,software_engineer,Agile / Scrum;Business Acumen;C++;Communication;Cybersecurity;Docker;Excel;Git;Java;JavaScript;Problem Solving;Python;REST APIs;Risk & Compliance;Testing / QA Automation,yes
+DEMO-0479,2026-Q2,san_francisco,Master's (in progress),Business / Finance,cloud_engineer,AWS;CI/CD;Cybersecurity;Docker;Excel;Git;Java;Linux;NoSQL Databases;Python;Statistics;Terraform,yes
+DEMO-0480,2026-Q2,new_york,Bachelor's (completed),Mathematics / Statistics,data_analyst,A/B Testing;CI/CD;Data Visualization;Excel;Git;MLOps;Power BI;Problem Solving;Python;SQL;Stakeholder Management;Statistics,yes

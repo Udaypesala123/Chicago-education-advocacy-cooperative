@@ -1,0 +1,17 @@
+occupation_id,occupation,category,soc_code,soc_title,soc_is_proxy,location_group,typical_entry_education,description
+data_analyst,Data Analyst,Data & Analytics,15-2031,Operations Research Analysts,yes,data,Bachelor's degree,"Turns raw data into reports, dashboards and recommendations for business teams."
+data_scientist,Data Scientist,Data & Analytics,15-2051,Data Scientists,no,data,Bachelor's degree,Uses statistics and machine learning to answer questions and build predictive models.
+ml_engineer,Machine Learning Engineer,AI & Machine Learning,15-1221,Computer and Information Research Scientists,yes,software,Master's degree,"Builds, deploys and maintains machine learning systems in production."
+data_engineer,Data Engineer,Data & Analytics,15-1243,Database Architects,yes,data,Bachelor's degree,Designs and maintains the pipelines and warehouses that make data usable.
+software_engineer,Software Engineer,Software Development,15-1252,Software Developers,no,software,Bachelor's degree,"Designs, builds and tests software applications and services."
+cloud_engineer,Cloud Engineer,Cloud & Infrastructure,15-1241,Computer Network Architects,yes,infra,Bachelor's degree,"Designs and operates cloud infrastructure on platforms such as AWS, Azure or GCP."
+devops_engineer,DevOps / Site Reliability Engineer,Cloud & Infrastructure,15-1299,"Computer Occupations, All Other",yes,infra,Bachelor's degree,Automates delivery pipelines and keeps production systems reliable.
+qa_engineer,Software QA Engineer,Software Development,15-1253,Software Quality Assurance Analysts and Testers,no,software,Bachelor's degree,Plans and automates testing to ensure software quality.
+web_developer,Web Developer,Software Development,15-1254,Web Developers,no,software,Bachelor's degree,"Builds websites and web applications, front-end and back-end."
+database_admin,Database Administrator,Cloud & Infrastructure,15-1242,Database Administrators,no,infra,Bachelor's degree,"Keeps databases secure, performant, backed up and available."
+security_analyst,Information Security Analyst,Cybersecurity,15-1212,Information Security Analysts,no,infra,Bachelor's degree,Protects an organization's systems and data from security threats.
+systems_analyst,Computer Systems Analyst,Business & Technology,15-1211,Computer Systems Analysts,no,business,Bachelor's degree,Bridges business needs and IT systems by analyzing requirements and designing solutions.
+financial_analyst,Financial Analyst,Business & Technology,13-2051,Financial and Investment Analysts,no,business,Bachelor's degree,Analyzes financial data to guide investment and business decisions.
+market_research_analyst,Market Research Analyst,Business & Technology,13-1161,Market Research Analysts and Marketing Specialists,no,business,Bachelor's degree,"Studies market conditions, customers and campaigns using surveys and data."
+project_manager,Technical Project Manager,Business & Technology,13-1082,Project Management Specialists,yes,business,Bachelor's degree,"Plans and coordinates technology projects, people and timelines."
+statistician,Statistician,Data & Analytics,15-2041,Statisticians,no,data,Master's degree,Designs studies and applies statistical methods to real-world data.

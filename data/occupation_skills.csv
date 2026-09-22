@@ -1,0 +1,208 @@
+occupation_id,skill,importance
+data_analyst,Communication,5
+data_analyst,Data Visualization,5
+data_analyst,Excel,5
+data_analyst,SQL,5
+data_analyst,Business Acumen,4
+data_analyst,Power BI,4
+data_analyst,Problem Solving,4
+data_analyst,Python,4
+data_analyst,Statistics,4
+data_analyst,Tableau,4
+data_analyst,A/B Testing,3
+data_analyst,Stakeholder Management,3
+data_analyst,Data Modeling,2
+data_analyst,R,2
+data_scientist,Machine Learning,5
+data_scientist,Python,5
+data_scientist,Statistics,5
+data_scientist,A/B Testing,4
+data_scientist,Communication,4
+data_scientist,Data Visualization,4
+data_scientist,Problem Solving,4
+data_scientist,SQL,4
+data_scientist,Deep Learning,3
+data_scientist,Git,3
+data_scientist,R,3
+data_scientist,Spark,3
+data_scientist,AWS,2
+data_scientist,NLP,2
+ml_engineer,Deep Learning,5
+ml_engineer,MLOps,5
+ml_engineer,Machine Learning,5
+ml_engineer,Python,5
+ml_engineer,AWS,4
+ml_engineer,Docker,4
+ml_engineer,Git,4
+ml_engineer,CI/CD,3
+ml_engineer,Kubernetes,3
+ml_engineer,Linux,3
+ml_engineer,NLP,3
+ml_engineer,REST APIs,3
+ml_engineer,SQL,3
+ml_engineer,Spark,3
+ml_engineer,Statistics,3
+ml_engineer,System Design,3
+ml_engineer,GCP,2
+data_engineer,Data Modeling,5
+data_engineer,ETL / Data Pipelines,5
+data_engineer,Python,5
+data_engineer,SQL,5
+data_engineer,Spark,5
+data_engineer,AWS,4
+data_engineer,Airflow,4
+data_engineer,Kafka,4
+data_engineer,Azure,3
+data_engineer,Communication,3
+data_engineer,Docker,3
+data_engineer,Git,3
+data_engineer,Linux,3
+data_engineer,NoSQL Databases,3
+data_engineer,CI/CD,2
+data_engineer,Java,2
+data_engineer,Terraform,2
+software_engineer,Git,5
+software_engineer,Problem Solving,5
+software_engineer,Java,4
+software_engineer,JavaScript,4
+software_engineer,Python,4
+software_engineer,REST APIs,4
+software_engineer,System Design,4
+software_engineer,Testing / QA Automation,4
+software_engineer,AWS,3
+software_engineer,Agile / Scrum,3
+software_engineer,C++,3
+software_engineer,CI/CD,3
+software_engineer,Communication,3
+software_engineer,Docker,3
+software_engineer,Linux,3
+software_engineer,SQL,3
+cloud_engineer,AWS,5
+cloud_engineer,Linux,5
+cloud_engineer,Terraform,5
+cloud_engineer,Azure,4
+cloud_engineer,CI/CD,4
+cloud_engineer,Docker,4
+cloud_engineer,Kubernetes,4
+cloud_engineer,Networking,4
+cloud_engineer,Cybersecurity,3
+cloud_engineer,GCP,3
+cloud_engineer,Git,3
+cloud_engineer,Python,3
+cloud_engineer,System Design,3
+devops_engineer,CI/CD,5
+devops_engineer,Docker,5
+devops_engineer,Git,5
+devops_engineer,Kubernetes,5
+devops_engineer,Linux,5
+devops_engineer,AWS,4
+devops_engineer,Problem Solving,4
+devops_engineer,Terraform,4
+devops_engineer,Azure,3
+devops_engineer,Communication,3
+devops_engineer,Cybersecurity,3
+devops_engineer,Networking,3
+devops_engineer,Python,3
+devops_engineer,Kafka,2
+qa_engineer,Testing / QA Automation,5
+qa_engineer,Agile / Scrum,4
+qa_engineer,CI/CD,4
+qa_engineer,Communication,4
+qa_engineer,Git,4
+qa_engineer,Java,4
+qa_engineer,Problem Solving,4
+qa_engineer,Python,4
+qa_engineer,JavaScript,3
+qa_engineer,REST APIs,3
+qa_engineer,SQL,3
+qa_engineer,Docker,2
+web_developer,HTML/CSS,5
+web_developer,JavaScript,5
+web_developer,React,5
+web_developer,Git,4
+web_developer,Problem Solving,4
+web_developer,REST APIs,4
+web_developer,Agile / Scrum,3
+web_developer,Communication,3
+web_developer,SQL,3
+web_developer,Testing / QA Automation,3
+web_developer,AWS,2
+web_developer,NoSQL Databases,2
+database_admin,SQL,5
+database_admin,Data Modeling,4
+database_admin,Linux,4
+database_admin,Problem Solving,4
+database_admin,AWS,3
+database_admin,Azure,3
+database_admin,Communication,3
+database_admin,Cybersecurity,3
+database_admin,NoSQL Databases,3
+database_admin,Risk & Compliance,3
+database_admin,Networking,2
+database_admin,Python,2
+security_analyst,Cybersecurity,5
+security_analyst,Networking,5
+security_analyst,Problem Solving,5
+security_analyst,Risk & Compliance,5
+security_analyst,Communication,4
+security_analyst,Linux,4
+security_analyst,AWS,3
+security_analyst,Azure,3
+security_analyst,Python,3
+security_analyst,SQL,2
+security_analyst,Stakeholder Management,2
+systems_analyst,Business Acumen,5
+systems_analyst,Communication,5
+systems_analyst,Problem Solving,5
+systems_analyst,Stakeholder Management,5
+systems_analyst,Agile / Scrum,4
+systems_analyst,SQL,4
+systems_analyst,Data Modeling,3
+systems_analyst,Excel,3
+systems_analyst,Project Management,3
+systems_analyst,System Design,3
+systems_analyst,REST APIs,2
+financial_analyst,Business Acumen,5
+financial_analyst,Communication,5
+financial_analyst,Excel,5
+financial_analyst,Financial Modeling,5
+financial_analyst,Data Visualization,3
+financial_analyst,Power BI,3
+financial_analyst,Python,3
+financial_analyst,Risk & Compliance,3
+financial_analyst,SQL,3
+financial_analyst,Stakeholder Management,3
+financial_analyst,Statistics,3
+financial_analyst,Tableau,3
+market_research_analyst,Communication,5
+market_research_analyst,Excel,5
+market_research_analyst,A/B Testing,4
+market_research_analyst,Business Acumen,4
+market_research_analyst,Data Visualization,4
+market_research_analyst,Statistics,4
+market_research_analyst,Power BI,3
+market_research_analyst,Problem Solving,3
+market_research_analyst,R,3
+market_research_analyst,SQL,3
+market_research_analyst,Tableau,3
+market_research_analyst,Python,2
+project_manager,Agile / Scrum,5
+project_manager,Communication,5
+project_manager,Project Management,5
+project_manager,Stakeholder Management,5
+project_manager,Business Acumen,4
+project_manager,Problem Solving,4
+project_manager,Excel,3
+project_manager,Risk & Compliance,3
+project_manager,AWS,2
+project_manager,System Design,2
+statistician,R,5
+statistician,Statistics,5
+statistician,A/B Testing,4
+statistician,Communication,4
+statistician,Data Visualization,4
+statistician,Problem Solving,4
+statistician,Python,4
+statistician,Excel,3
+statistician,Machine Learning,3
+statistician,SQL,3
