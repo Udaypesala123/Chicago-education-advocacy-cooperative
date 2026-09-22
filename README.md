@@ -2,7 +2,7 @@
 
 Designed and built by **[Uday Pesala](https://github.com/Udaypesala123)**.
 
-**Live app:** <https://chicago-education-advocacy-cooperative-h69gix3dced5ynuw5qdpge.streamlit.app>
+**Live app:** <https://uday-pesala-chieac-project.streamlit.app>
 
 A Streamlit web application that helps **international students and early-career professionals** find career paths that fit their skills, see which skills to develop next, and explore salary and demand trends across U.S. metro areas using public labor-market data.
 
