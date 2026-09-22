@@ -11,8 +11,7 @@ hero(
     APP_NAME,
     "Find career paths that fit your skills, see which skills to build next, and explore salaries and demand "
     "across U.S. metro areas. Built for international students and early-career professionals.",
-    byline=f'Designed &amp; built by <a href="{AUTHOR_URL}" target="_blank">{AUTHOR}</a> for the Chicago Education '
-           "Advocacy Cooperative",
+    byline=f'Designed &amp; built by <a href="{AUTHOR_URL}" target="_blank">{AUTHOR}</a>',
 )
 
 c1, c2, c3, c4 = st.columns(4)

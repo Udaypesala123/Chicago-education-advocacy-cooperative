@@ -76,7 +76,7 @@ Python · Streamlit · Pandas · Plotly · scikit-learn · fpdf2. The app is des
 
 st.markdown(f"""
 ### Credits
-Designed and built by **[{AUTHOR}]({AUTHOR_URL})** for the Chicago Education Advocacy Cooperative (ChiEAC).
+Designed and built by **[{AUTHOR}]({AUTHOR_URL})**.
 """)
 
 st.markdown("### Disclaimer")

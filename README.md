@@ -1,6 +1,6 @@
 # ChiEAC Career Insights Dashboard
 
-Designed and built by **[Uday Pesala](https://github.com/Udaypesala123)** for the Chicago Education Advocacy Cooperative (ChiEAC).
+Designed and built by **[Uday Pesala](https://github.com/Udaypesala123)**.
 
 **Live app:** <https://chicago-education-advocacy-cooperative-h69gix3dced5ynuw5qdpge.streamlit.app>
 
