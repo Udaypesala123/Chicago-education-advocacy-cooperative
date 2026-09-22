@@ -58,7 +58,7 @@ def match_scores(recs: pd.DataFrame) -> go.Figure:
 
 
 def coverage_radar(cov: pd.DataFrame, title: str) -> go.Figure:
-    cats = cov["skill_category"].tolist()
+    cats = [c.replace(" & ", " &<br>") for c in cov["skill_category"]]
     vals = cov["coverage_pct"].tolist()
     if len(cats) < 3:  # a radar needs >= 3 axes; fall back to a bar chart
         fig = go.Figure(go.Bar(x=cats, y=vals, marker_color=TEAL, text=[f"{v:.0f}%" for v in vals],
@@ -71,7 +71,8 @@ def coverage_radar(cov: pd.DataFrame, title: str) -> go.Figure:
     fig.add_trace(go.Scatterpolar(r=vals + vals[:1], theta=cats + cats[:1], name="Your coverage",
                                   fill="toself", line=dict(color=TEAL), fillcolor="rgba(42,157,143,0.25)",
                                   hovertemplate="%{theta}: %{r:.0f}%<extra></extra>"))
-    fig.update_layout(title=title, height=420,
+    fig.update_layout(title=title, height=440, margin=dict(l=70, r=70, t=70, b=40),
+                      legend=dict(orientation="h", yanchor="top", y=-0.05, xanchor="center", x=0.5),
                       polar=dict(radialaxis=dict(range=[0, 100], ticksuffix="%", gridcolor="#E3E8EF"),
                                  angularaxis=dict(gridcolor="#E3E8EF")))
     return fig
@@ -91,6 +92,8 @@ def gap_bars(gap: pd.DataFrame) -> go.Figure:
             hovertemplate="<b>%{y}</b><br>Importance: %{x}/5<br>Status: " + status + "<extra></extra>",
         ))
     fig.update_layout(title="Skills for this role, by importance and your status", barmode="overlay",
+                      legend=dict(orientation="h", yanchor="bottom", y=1.0, xanchor="left", x=0),
+                      margin=dict(l=10, r=10, t=90, b=10),
                       xaxis=dict(title="Importance to role (1–5)", range=[0, 5.3], dtick=1),
                       yaxis_title=None, height=max(320, 26 * len(df) + 100),
                       yaxis=dict(categoryorder="array", categoryarray=df["skill"].tolist()))
